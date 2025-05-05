@@ -1,4 +1,11 @@
 scikit-learn
 pandas
 jsonpickle
+numpy
+nltk
+spacy
+gensim
+PyMuPDF
+soundfile
+sounddevice
 tk
