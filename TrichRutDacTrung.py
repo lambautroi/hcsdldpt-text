@@ -1,21 +1,23 @@
-import fitz  # PyMuPDF để đọc PDF
+import fitz  # PyMuPDF
 import numpy as np
-import spacy
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 from gensim.models import Word2Vec
+import spacy
 
 class TrichRutDacTrung:
     def __init__(self):
         self.nlp = spacy.load("en_core_web_sm")
 
-    def read_pdf(self, file_path):
-        """Đọc nội dung từ file PDF"""
-        doc = fitz.open(file_path)
+    def read_pdf(self, path):
+        doc = fitz.open(path)
         text = ""
         for page in doc:
-            text += page.get_text()
-        return text.strip()
+            page_text = page.get_text()
+            text += page_text
+        if len(text.strip()) < 100:
+            print("⚠️ Văn bản trích xuất quá ngắn!")
+        return text
 
     def extract_bow_features(self, texts):
         vectorizer = CountVectorizer()
@@ -29,8 +31,9 @@ class TrichRutDacTrung:
 
     def extract_word2vec_features(self, texts, vector_size=100):
         tokenized_texts = [text.split() for text in texts]
-        model = Word2Vec(tokenized_texts, vector_size=vector_size, window=5,
-                         min_count=1, workers=4)
+        if not any(tokenized_texts):
+            return np.zeros((len(texts), vector_size))
+        model = Word2Vec(tokenized_texts, vector_size=vector_size, window=5, min_count=1, workers=4)
         doc_vectors = []
         for tokens in tokenized_texts:
             vectors = [model.wv[word] for word in tokens if word in model.wv]
@@ -83,6 +86,22 @@ class TrichRutDacTrung:
         pos_features = self.extract_pos_features(texts)
         passive_features = self.extract_passive_voice_features(texts)
 
+        # Xác định chiều tối đa cần thiết cho mỗi loại đặc trưng
+        target_dim = 10  # Hoặc bất kỳ số nào đại ca muốn cố định
+
+        def resize_features(features, target_dim):
+            if features.shape[1] >= target_dim:
+                return features[:, :target_dim]
+            else:
+                pad_width = target_dim - features.shape[1]
+                return np.pad(features, ((0, 0), (0, pad_width)), 'constant')
+
+        bow_features = resize_features(bow_features, target_dim)
+        tfidf_features = resize_features(tfidf_features, target_dim)
+        word2vec_features = resize_features(word2vec_features, target_dim)
+        lda_features = resize_features(lda_features, target_dim)
+
+
         combined_features = np.hstack((
             bow_features,
             tfidf_features,
@@ -93,8 +112,11 @@ class TrichRutDacTrung:
         ))
         return combined_features
 
+feature_extractor = TrichRutDacTrung()
 
-def features(file):
-    extractor = TrichRutDacTrung()
-    text = extractor.read_pdf(file)
-    return extractor.extract_all_features([text])
+def features(path):
+    raw_text = feature_extractor.read_pdf(path)
+    cleaned_text = raw_text.replace("\n", " ").strip()
+    texts = [cleaned_text]
+    all_features = feature_extractor.extract_all_features(texts)
+    return all_features[0]

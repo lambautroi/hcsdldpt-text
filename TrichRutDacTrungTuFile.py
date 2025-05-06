@@ -1,17 +1,28 @@
-import TrichRutDacTrung as ft
 import os
-from Class import Feature
+from TrichRutDacTrung import TrichRutDacTrung
+from TienXuLy import preprocess_text
 import LuuTruDacTrung as luu
 
-folder_path = 'data'
-files = os.listdir(folder_path)
-listFeatures = []
+folder = "data"
+extractor = TrichRutDacTrung()
 
-for file in files:
-    full_path = os.path.join(folder_path, file)
-    feature_vector = ft.features(full_path)[0]
-    feature = Feature(link=full_path, feature=feature_vector)
-    listFeatures.append(feature)
+list_features = []
+file_names = []
 
-Clusters = luu.ClusterUseKmeans(listFeatures)
-luu.save(Clusters)
+for filename in os.listdir(folder):
+    if filename.endswith(".pdf"):
+        path = os.path.join(folder, filename)
+        print(f"Đang xử lý {path}...")
+        raw = extractor.read_pdf(path)
+        if not raw.strip():
+            print(f"⚠ Bỏ qua {filename} vì không đọc được nội dung.")
+            continue
+        clean = preprocess_text(raw)
+        vector = extractor.extract_all_features([clean])
+        list_features.append(vector[0])
+        file_names.append(filename)
+
+# Clustering
+clusters = luu.ClusterUseKmeans(list_features)
+luu.LuuJSON(clusters)
+print("✅ Hoàn tất. Kết quả lưu vào data.json")
