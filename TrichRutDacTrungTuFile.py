@@ -1,34 +1,48 @@
 import os
-import TrichRutDacTrung as td
-import LuuTruDacTrung as luu
+from pathlib import Path
+from TrichRutDacTrung import extract_features_from_file
+from LuuTruDacTrung import ClusterUseKmeans, LuuDanhSachDacTrungVaNhom
 
-DATA_FOLDER = "data"
+DATA_DIR = "data"
 OUTPUT_FILE = "metadata/data.json"
-N_CLUSTERS = 5  # Tuỳ chỉnh nếu muốn thay đổi số cụm
 
-# Bước 1: Đọc toàn bộ văn bản trong thư mục data/
-print("📁 Đang load các file từ thư mục data/...")
-files = [f for f in os.listdir(DATA_FOLDER) if f.endswith((".txt", ".pdf"))]
-file_paths = [os.path.join(DATA_FOLDER, f) for f in files]
+def main():
+    print("🚀 Bắt đầu trích rút đặc trưng từ thư mục 'data/'...\n")
+    
+    all_files = []
+    list_features = []
 
-texts = []
-for file_path in file_paths:
-    try:
-        text = td.extract_text_from_file(file_path)
-        clean = td.clean_text(text)
-        texts.append(clean)
-    except Exception as e:
-        print(f"❌ Lỗi khi đọc file {file_path}: {e}")
+    for filename in os.listdir(DATA_DIR):
+        filepath = os.path.join(DATA_DIR, filename)
+        if filename.endswith(".txt") or filename.endswith(".pdf"):
+            print(f"📄 Đang xử lý: {filename}")
+            try:
+                features = extract_features_from_file(filepath)
+                list_features.append(features)
+                all_files.append(filename)  # chỉ lấy tên file
+            except Exception as e:
+                print(f"❌ Lỗi khi xử lý {filename}: {e}")
 
-# Bước 2: Trích rút đặc trưng từ văn bản
-features_array = td.extract_all_features(texts)
+    print(f"\n✅ Đã trích rút đặc trưng cho {len(list_features)} văn bản.")
 
-# Bước 3: Phân cụm
-labels = luu.ClusterUseKmeans(features_array, n_clusters=N_CLUSTERS)
+    if not list_features:
+        print("⚠️ Không có đặc trưng nào được trích rút. Thoát.")
+        return
 
-# Bước 4: Lưu đặc trưng + nhãn cụm + link
-luu.LuuDanhSachDacTrungVaNhom(
-    features_array,
-    labels,
-    OUTPUT_FILE
-)
+    # Chuẩn hóa kích thước nếu cần (chắc ăn)
+    import numpy as np
+    features_array = np.array(list_features)
+    if len(set(len(f) for f in list_features)) > 1:
+        print("⚠️ Các đặc trưng có độ dài khác nhau. Đang chuẩn hóa lại...")
+        from sklearn.preprocessing import StandardScaler
+        features_array = StandardScaler().fit_transform(features_array)
+    print(f"✅ Đặc trưng sau chuẩn hóa, shape: {features_array.shape}")
+
+    # Clustering : Phân cụm
+    labels = ClusterUseKmeans(features_array)
+
+    # Lưu đặc trưng + nhãn cụm + link
+    LuuDanhSachDacTrungVaNhom(features_array, labels, OUTPUT_FILE, file_paths=all_files)
+
+if __name__ == "__main__":
+    main()

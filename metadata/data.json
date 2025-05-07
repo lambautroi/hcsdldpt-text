@@ -2,2822 +2,2822 @@
   {
     "id": 0,
     "feature": [
+      2.0,
+      0.002598943834897617,
+      -0.06329827010631561,
       0.0,
-      0.0,
-      -0.8206719160079956,
-      0.9991735816001892,
       0.04195993502977802,
       1.0
     ],
-    "label": 4,
-    "link": "file_0.txt"
+    "label": 0,
+    "link": "A Bayesian Model of the Litigation Game.pdf"
   },
   {
     "id": 1,
     "feature": [
       1.0,
-      0.002395352518196264,
-      -0.8126222491264343,
+      0.0011303794445173937,
+      -0.06528500467538834,
       0.0,
       0.030505149583128985,
       1.0
     ],
     "label": 0,
-    "link": "file_1.txt"
+    "link": "A Comprehensive Modeling Approach for Crop Yield F.pdf"
   },
   {
     "id": 2,
     "feature": [
+      4.0,
+      0.0072530329543876206,
+      -0.014241703785955906,
       0.0,
-      0.0,
-      -0.6767106652259827,
-      0.07856027781963348,
       0.02740899357601713,
       1.0
     ],
-    "label": 0,
-    "link": "file_2.txt"
+    "label": 4,
+    "link": "A Framework for Building Enviromics Matrices in Mi.pdf"
   },
   {
     "id": 3,
     "feature": [
+      1.0,
+      0.0011304596145274024,
+      -0.06401189416646957,
       0.0,
-      0.0,
-      -0.7374932765960693,
-      0.9999208450317383,
       0.04124709527498063,
       1.0
     ],
-    "label": 4,
-    "link": "file_3.txt"
+    "label": 0,
+    "link": "A Generalized Framework for Assessing Equity in Gr.pdf"
   },
   {
     "id": 4,
     "feature": [
+      1.0,
+      0.0008071642857035378,
+      -0.015053976327180862,
       0.0,
-      0.0,
-      -0.762907087802887,
-      0.22909484803676605,
       0.033788940539790466,
       1.0
     ],
     "label": 0,
-    "link": "file_4.txt"
+    "link": "A Mapping Study on Software Process Self-Assessmen.pdf"
   },
   {
     "id": 5,
     "feature": [
       8.0,
-      0.01638033003553629,
-      -0.568440318107605,
+      0.011225231922209835,
+      -0.024333292618393898,
       0.0,
       0.040042026616857344,
       1.0
     ],
     "label": 2,
-    "link": "file_5.txt"
+    "link": "A Nitrogen Alternative_ Use of Plasma Activated Wa.pdf"
   },
   {
     "id": 6,
     "feature": [
+      1.0,
+      0.0009997620849323107,
+      -0.0560874305665493,
       0.0,
-      0.0,
-      -0.7748118042945862,
-      0.04602670669555664,
       0.04222185209860093,
       1.0
     ],
     "label": 0,
-    "link": "file_6.txt"
+    "link": "A Study of Gender Discussions in Mobile Apps.pdf"
   },
   {
     "id": 7,
     "feature": [
       3.0,
-      0.0031428421604169244,
-      -0.5466670989990234,
+      0.0015777103777420256,
+      -0.03454377502202988,
       0.0,
       0.043363320707070704,
       1.0
     ],
-    "label": 2,
-    "link": "file_7.txt"
+    "label": 4,
+    "link": "A Survey on Video Action Recognition in Sports_ Da.pdf"
   },
   {
     "id": 8,
     "feature": [
-      0.0,
-      0.0,
-      -0.7728827595710754,
+      1.0,
+      0.0012004075355125244,
+      -0.037680529057979584,
       0.0,
       0.03932909196067091,
       1.0
     ],
     "label": 0,
-    "link": "file_8.txt"
+    "link": "A Unified Framework for Generalizable Style Transf.pdf"
   },
   {
     "id": 9,
     "feature": [
-      0.0,
-      0.0,
-      -0.7581533193588257,
-      0.0,
+      1.0,
+      0.0016407161411886625,
+      -0.021421857178211212,
+      0.9998496770858765,
       0.025525525525525526,
       1.0
     ],
     "label": 0,
-    "link": "file_9.txt"
+    "link": "A Very Low Complexity Successive Symbol-by-Symbol .pdf"
   },
   {
     "id": 10,
     "feature": [
-      0.0,
-      0.0,
-      -0.689440906047821,
-      0.0,
+      2.0,
+      0.0029877447566223057,
+      -0.012332598678767681,
+      0.9998894333839417,
       0.024844720496894408,
       1.0
     ],
     "label": 0,
-    "link": "file_10.txt"
+    "link": "Accidental_Inflation_from_Kähler_Uplifting.pdf"
   },
   {
     "id": 11,
     "feature": [
+      1.0,
+      0.0005559445955122139,
+      -0.06082998588681221,
       0.0,
-      0.0,
-      -0.8053557872772217,
-      0.17312800884246826,
       0.02970470033199371,
       1.0
     ],
     "label": 0,
-    "link": "file_11.txt"
+    "link": "Accurate Measures of Vaccination and Concerns of V.pdf"
   },
   {
     "id": 12,
     "feature": [
+      1.0,
+      0.003307778389341138,
+      -0.0029977946542203426,
       0.0,
-      0.0,
-      -0.7033014893531799,
-      0.058864884078502655,
       0.026475694444444444,
       1.0
     ],
     "label": 0,
-    "link": "file_12.txt"
+    "link": "Ad Orientem_ the Orientation of Gothic Cathedrals .pdf"
   },
   {
     "id": 13,
     "feature": [
-      0.0,
-      0.0,
-      -0.7611072063446045,
+      1.0,
+      0.0008995858135928423,
+      -0.012728835456073284,
       0.0,
       0.025994555194520066,
       1.0
     ],
     "label": 0,
-    "link": "file_13.txt"
+    "link": "Adaptation in a heterogeneous environment. I_ Pers.pdf"
   },
   {
     "id": 14,
     "feature": [
+      1.0,
+      0.0021283003770256465,
+      -0.008112490177154541,
       0.0,
-      0.0,
-      -0.5691297650337219,
-      0.9706752896308899,
       0.038218857039841354,
       1.0
     ],
-    "label": 4,
-    "link": "file_14.txt"
+    "label": 0,
+    "link": "Advancing_Drug_Resistance_Research_Through_Quantit.pdf"
   },
   {
     "id": 15,
     "feature": [
-      0.0,
-      0.0,
-      -0.7488747835159302,
-      0.9999105930328369,
+      2.0,
+      0.0021173780150506682,
+      -0.08118651062250137,
+      0.9999125003814697,
       0.03298743855816494,
       1.0
     ],
-    "label": 4,
-    "link": "file_15.txt"
+    "label": 0,
+    "link": "AI and the law.pdf"
   },
   {
     "id": 16,
     "feature": [
-      0.0,
-      0.0,
-      -0.6788594126701355,
-      0.0,
+      1.0,
+      0.00025351670270387893,
+      -0.051849063485860825,
+      0.999982476234436,
       0.03062606492201494,
       1.0
     ],
     "label": 0,
-    "link": "file_16.txt"
+    "link": "An Introduction to Lifelong Supervised Learning.pdf"
   },
   {
     "id": 17,
     "feature": [
-      0.0,
-      0.0,
-      -0.9140992760658264,
+      1.0,
+      0.0012942882893936909,
+      -0.04243461415171623,
       0.0,
       0.02068452380952381,
       1.0
     ],
     "label": 0,
-    "link": "file_17.txt"
+    "link": "An iterative nonlocal residual constitutive model .pdf"
   },
   {
     "id": 18,
     "feature": [
-      0.0,
-      0.0,
-      -0.8273878693580627,
+      6.0,
+      0.00749153583438592,
+      -0.03189127892255783,
       0.0,
       0.02179150240911082,
       1.0
     ],
-    "label": 0,
-    "link": "file_18.txt"
+    "label": 4,
+    "link": "An operator view on alliances in politics.pdf"
   },
   {
     "id": 19,
     "feature": [
-      0.0,
-      0.0,
-      -0.6936575174331665,
+      1.0,
+      0.0006230517501748905,
+      -0.2368210256099701,
       0.0,
       0.0498220640569395,
       1.0
     ],
     "label": 0,
-    "link": "file_19.txt"
+    "link": "An_Assessment_Methodology_and_Instrument_for_Cyber.pdf"
   },
   {
     "id": 20,
     "feature": [
+      2.0,
+      0.01027575038035225,
+      -0.0013571942690759897,
       0.0,
-      0.0,
-      -0.879721462726593,
-      0.17983640730381012,
       0.026707530647985988,
       1.0
     ],
     "label": 0,
-    "link": "file_20.txt"
+    "link": "Applicability_of_Large_Corporate_Credit_Models_to_.pdf"
   },
   {
     "id": 21,
     "feature": [
+      1.0,
+      0.0018491302557890805,
+      -0.01611671783030033,
       0.0,
-      0.0,
-      -0.909965991973877,
-      0.9988859295845032,
       0.042591125198098254,
       1.0
     ],
-    "label": 4,
-    "link": "file_21.txt"
+    "label": 0,
+    "link": "Application_of_data_acquisition_methods_in_the_fie.pdf"
   },
   {
     "id": 22,
     "feature": [
+      1.0,
+      0.0009869677589907553,
+      -0.08080138266086578,
       0.0,
-      0.0,
-      -0.7368751168251038,
-      0.9999330043792725,
       0.04328223624887286,
       1.0
     ],
-    "label": 4,
-    "link": "file_22.txt"
+    "label": 0,
+    "link": "Astronomy_Identity_Framework_for_Undergraduate_Stu.pdf"
   },
   {
     "id": 23,
     "feature": [
       2.0,
-      0.002345132578897704,
-      -0.5042246580123901,
-      0.9999619722366333,
+      0.0011785469044530716,
+      -0.017935700714588165,
+      0.9999640583992004,
       0.025468567841449196,
       1.0
     ],
-    "label": 4,
-    "link": "file_23.txt"
+    "label": 0,
+    "link": "At the crossroads of epidemiology and biology_ bri.pdf"
   },
   {
     "id": 24,
     "feature": [
-      0.0,
-      0.0,
-      -0.71014404296875,
+      1.0,
+      0.0010872680769023221,
+      -0.052013054490089417,
       0.0,
       0.026732927769685545,
       1.0
     ],
     "label": 0,
-    "link": "file_24.txt"
+    "link": "Automatic Camera Trajectory Control with Enhanced .pdf"
   },
   {
     "id": 25,
     "feature": [
-      0.0,
-      0.0,
-      -0.7262850403785706,
+      1.0,
+      0.001447049208545251,
+      -0.011833470314741135,
       0.0,
       0.03554933519944017,
       1.0
     ],
     "label": 0,
-    "link": "file_25.txt"
+    "link": "A_Dataset_for_Medical_Instructional_Video_Classifi.pdf"
   },
   {
     "id": 26,
     "feature": [
+      1.0,
+      0.0018952757440398506,
+      -0.012751839123666286,
       0.0,
-      0.0,
-      -0.70307457447052,
-      0.16310115158557892,
       0.035038657673959535,
       1.0
     ],
     "label": 0,
-    "link": "file_26.txt"
+    "link": "A_Decision_Framework_for_Blockchain_Adoption.pdf"
   },
   {
     "id": 27,
     "feature": [
+      1.0,
+      0.0025125152302068413,
+      -0.002762835705652833,
       0.0,
-      0.0,
-      -0.7525796890258789,
-      0.9997957348823547,
       0.029433588919119465,
       1.0
     ],
-    "label": 4,
-    "link": "file_27.txt"
+    "label": 0,
+    "link": "A_Dynamic_Spillover_Effect_Investigation_on_Crypto.pdf"
   },
   {
     "id": 28,
     "feature": [
       1.0,
-      0.005124331619931913,
-      -0.7462063431739807,
-      0.6489675641059875,
+      0.0028644007398221016,
+      -0.002282478380948305,
+      0.0,
       0.030950626381724394,
       1.0
     ],
-    "label": 4,
-    "link": "file_28.txt"
+    "label": 0,
+    "link": "A_Large_Language_Model_Pipeline_for_Breast_Cancer_.pdf"
   },
   {
     "id": 29,
     "feature": [
-      0.0,
-      0.0,
-      -0.6930052638053894,
-      0.9997180104255676,
+      2.0,
+      0.007585559310450486,
+      -0.0029673653189092875,
+      0.9997251629829407,
       0.03913491246138002,
       1.0
     ],
-    "label": 4,
-    "link": "file_29.txt"
+    "label": 0,
+    "link": "A_Multidisciplinary_Undergraduate_Nanoscience_and_.pdf"
   },
   {
     "id": 30,
     "feature": [
+      3.0,
+      0.009083446880633454,
+      -0.0027837089728564024,
       0.0,
-      0.0,
-      -0.6704415678977966,
-      0.2096068263053894,
       0.04378980891719745,
       1.0
     ],
-    "label": 0,
-    "link": "file_30.txt"
+    "label": 4,
+    "link": "Bayesian_dynamic_financial_networks_with_time-vary.pdf"
   },
   {
     "id": 31,
     "feature": [
       5.0,
-      0.008970325112823469,
-      -0.7951895594596863,
+      0.003835735475404967,
+      -0.03313262760639191,
       0.0,
       0.03512286324786325,
       1.0
     ],
-    "label": 2,
-    "link": "file_31.txt"
+    "label": 4,
+    "link": "Bayesian_Neural_Networks_for_Macroeconomic_Analysi.pdf"
   },
   {
     "id": 32,
     "feature": [
+      4.0,
+      0.003430443421253469,
+      -0.12325213104486465,
       0.0,
-      0.0,
-      -0.7372581362724304,
-      0.9979346990585327,
       0.02116440864152325,
       1.0
     ],
     "label": 4,
-    "link": "file_32.txt"
+    "link": "Big Ideas in Sports Analytics and Statistical Tool.pdf"
   },
   {
     "id": 33,
     "feature": [
       1.0,
-      0.0039363516315055105,
-      -0.6082214117050171,
-      0.9536358714103699,
+      0.0019505967202922147,
+      -0.003996740560978651,
+      0.0,
       0.022185476092049055,
       1.0
     ],
-    "label": 4,
-    "link": "file_33.txt"
+    "label": 0,
+    "link": "Biotechnology and the lifetime of technical civili.pdf"
   },
   {
     "id": 34,
     "feature": [
+      1.0,
+      0.001176470588235294,
+      -0.05429239943623543,
       0.0,
-      0.0,
-      -0.809985339641571,
-      0.17917633056640625,
       0.0323850219273586,
       1.0
     ],
     "label": 0,
-    "link": "file_34.txt"
+    "link": "Bipartisanship breakdown, functional networks and .pdf"
   },
   {
     "id": 35,
     "feature": [
+      1.0,
+      0.0043650230017675635,
+      -0.0012354699429124594,
       0.0,
-      0.0,
-      -0.7851399779319763,
-      0.026347406208515167,
       0.03529411764705882,
       1.0
     ],
     "label": 0,
-    "link": "file_35.txt"
+    "link": "Building_Reusable_Software_Component_For_Optimizat.pdf"
   },
   {
     "id": 36,
     "feature": [
-      0.0,
-      0.0,
-      -0.5575230717658997,
-      0.0,
+      1.0,
+      0.000938469993947683,
+      -0.00300845829769969,
+      0.9999513030052185,
       0.01749164895232311,
       1.0
     ],
     "label": 0,
-    "link": "file_36.txt"
+    "link": "Candidate nomination for Condorcet-consistent voti.pdf"
   },
   {
     "id": 37,
     "feature": [
+      1.0,
+      0.0015576059453299388,
+      -0.014799357391893864,
       0.0,
-      0.0,
-      -0.5420806407928467,
-      0.1611768901348114,
       0.04436229205175601,
       1.0
     ],
     "label": 0,
-    "link": "file_37.txt"
+    "link": "Carbon Economics of Different Agricultural Practic.pdf"
   },
   {
     "id": 38,
     "feature": [
-      0.0,
-      0.0,
-      -0.7215280532836914,
+      1.0,
+      0.0020680720866884314,
+      -0.007299266289919615,
       0.0,
       0.03062841049111072,
       1.0
     ],
     "label": 0,
-    "link": "file_38.txt"
+    "link": "Causal_Inference_in_Network_Economics.pdf"
   },
   {
     "id": 39,
     "feature": [
-      0.0,
-      0.0,
-      -0.6731138229370117,
+      1.0,
+      0.001838359538661267,
+      -0.02043541707098484,
       0.0,
       0.024691358024691357,
       1.0
     ],
     "label": 0,
-    "link": "file_39.txt"
+    "link": "Characterization and recognition of some oppositio.pdf"
   },
   {
     "id": 40,
     "feature": [
+      4.0,
+      0.005158276751030591,
+      -0.01314064022153616,
       0.0,
-      0.0,
-      -0.7036356925964355,
-      0.25022345781326294,
       0.024267338549264023,
       1.0
     ],
-    "label": 0,
-    "link": "file_40.txt"
+    "label": 4,
+    "link": "Club coefficients in the UEFA Champions League_ Ti.pdf"
   },
   {
     "id": 41,
     "feature": [
+      2.0,
+      0.001905342669133892,
+      -0.04318297281861305,
       0.0,
-      0.0,
-      -0.7250341773033142,
-      0.9976822137832642,
       0.032339001951491496,
       1.0
     ],
-    "label": 4,
-    "link": "file_41.txt"
+    "label": 0,
+    "link": "Co-evolution of Vaccination Behavior and Perceived.pdf"
   },
   {
     "id": 42,
     "feature": [
+      1.0,
+      0.0015828194895411037,
+      -0.011074025183916092,
       0.0,
-      0.0,
-      -0.7743189334869385,
-      0.9989293217658997,
       0.026984950700570835,
       1.0
     ],
-    "label": 4,
-    "link": "file_42.txt"
+    "label": 0,
+    "link": "Collective_dynamics,_diversification_and_optimal_p.pdf"
   },
   {
     "id": 43,
     "feature": [
+      1.0,
+      0.0014737805278847939,
+      -0.013936953619122505,
       0.0,
-      0.0,
-      -0.6423851847648621,
-      0.04459746554493904,
       0.03195776017785188,
       1.0
     ],
     "label": 0,
-    "link": "file_43.txt"
+    "link": "Color-Coded Symbology and New Computer Vision Tool.pdf"
   },
   {
     "id": 44,
     "feature": [
+      1.0,
+      0.005599012869068718,
+      -0.0008359256898984313,
       0.0,
-      0.0,
-      -0.7391207218170166,
-      0.22454006969928741,
       0.03844282238442823,
       1.0
     ],
     "label": 0,
-    "link": "file_44.txt"
+    "link": "Considerations_for_Cloud_Security_Operations.pdf"
   },
   {
     "id": 45,
     "feature": [
-      0.0,
-      0.0,
-      -0.07585246860980988,
-      0.0,
+      1.0,
+      0.0005759530699015048,
+      -0.047844622284173965,
+      0.9999688267707825,
       0.0015548472362590376,
       1.0
     ],
     "label": 0,
-    "link": "file_45.txt"
+    "link": "Contribuição do ecoturismo para o uso sustentável .pdf"
   },
   {
     "id": 46,
     "feature": [
       3.0,
-      0.0043304947794687645,
-      -0.5641098618507385,
-      0.9999444484710693,
+      0.002269958605954552,
+      -0.1918427050113678,
+      0.0,
       0.0602832097100472,
       1.0
     ],
-    "label": 2,
-    "link": "file_46.txt"
+    "label": 4,
+    "link": "Corporate_Social_Responsibility_and_Corporate_Gove.pdf"
   },
   {
     "id": 47,
     "feature": [
+      10.0,
+      0.01636321552337281,
+      -0.008843635208904743,
       0.0,
-      0.0,
-      -0.6881268620491028,
-      0.9989429116249084,
       0.024181696726786907,
       1.0
     ],
-    "label": 4,
-    "link": "file_47.txt"
+    "label": 2,
+    "link": "Criminal Networks Analysis in Missing Data scenari.pdf"
   },
   {
     "id": 48,
     "feature": [
-      0.0,
-      0.0,
-      -0.6702166199684143,
+      1.0,
+      0.0025666011963569532,
+      -0.0020980911795049906,
       0.0,
       0.046130631601638286,
       1.0
     ],
     "label": 0,
-    "link": "file_48.txt"
+    "link": "Cross-media_Scientific_Research_Achievements_Query.pdf"
   },
   {
     "id": 49,
     "feature": [
+      2.0,
+      0.002435114469743496,
+      -0.018750134855508804,
       0.0,
-      0.0,
-      -0.6505066156387329,
-      0.9993813633918762,
       0.05888465535157603,
       1.0
     ],
-    "label": 4,
-    "link": "file_49.txt"
+    "label": 0,
+    "link": "Crowdsourcing_ a new tool for policy-making_.pdf"
   },
   {
     "id": 50,
     "feature": [
+      1.0,
+      0.000761811733270329,
+      -0.1246325746178627,
       0.0,
-      0.0,
-      -0.7333430051803589,
-      0.05816485732793808,
       0.02947562339627607,
       1.0
     ],
     "label": 0,
-    "link": "file_50.txt"
+    "link": "Current Concepts in Version Control Systems.pdf"
   },
   {
     "id": 51,
     "feature": [
-      0.0,
-      0.0,
-      -0.7345724701881409,
+      1.0,
+      0.001826006648513267,
+      -0.008489768952131271,
       0.0,
       0.03229932842980492,
       1.0
     ],
     "label": 0,
-    "link": "file_51.txt"
+    "link": "DCMD_ Distance-based Classification Using Mixture .pdf"
   },
   {
     "id": 52,
     "feature": [
-      0.0,
-      0.0,
-      -0.7651238441467285,
+      1.0,
+      0.0010972493791629328,
+      0.01972823590040207,
       0.0,
       0.029669588671611596,
       1.0
     ],
     "label": 0,
-    "link": "file_52.txt"
+    "link": "DeepAltTrip_ Top-k Alternative Itineraries for Tri.pdf"
   },
   {
     "id": 53,
     "feature": [
+      1.0,
+      0.0010248839288594701,
+      -0.11128543317317963,
       0.0,
-      0.0,
-      -0.8455871939659119,
-      0.9966833591461182,
       0.025960431278132523,
       1.0
     ],
-    "label": 4,
-    "link": "file_53.txt"
+    "label": 0,
+    "link": "Detecting criminal organizations in mobile phone n.pdf"
   },
   {
     "id": 54,
     "feature": [
-      0.0,
-      0.0,
-      -0.8137866258621216,
+      1.0,
+      0.0010908297607202131,
+      -0.11388286203145981,
       0.0,
       0.02273210112598258,
       1.0
     ],
     "label": 0,
-    "link": "file_54.txt"
+    "link": "Detecting_Spells_in_Fantasy_Literature_with_a_Tran.pdf"
   },
   {
     "id": 55,
     "feature": [
+      4.0,
+      0.003808213180722851,
+      -0.11408192664384842,
       0.0,
-      0.0,
-      -0.7883033156394958,
-      0.48932674527168274,
       0.045492142266335814,
       1.0
     ],
-    "label": 0,
-    "link": "file_55.txt"
+    "label": 4,
+    "link": "Developing a Climate Litigation Framework_ China's.pdf"
   },
   {
     "id": 56,
     "feature": [
+      3.0,
+      0.003560119340365071,
+      -0.056908026337623596,
       0.0,
-      0.0,
-      -0.788604736328125,
-      0.11951065063476562,
       0.03024170882518269,
       1.0
     ],
-    "label": 0,
-    "link": "file_56.txt"
+    "label": 4,
+    "link": "Developing and Publishing Code for Trusted Researc.pdf"
   },
   {
     "id": 57,
     "feature": [
-      0.0,
-      0.0,
-      -0.662165641784668,
+      1.0,
+      0.0007530596607854594,
+      0.016987092792987823,
       0.0,
       0.02291752435844655,
       1.0
     ],
     "label": 0,
-    "link": "file_57.txt"
+    "link": "Diptych varieties. I.pdf"
   },
   {
     "id": 58,
     "feature": [
-      0.0,
-      0.0,
-      -0.7821077108383179,
-      0.22839538753032684,
+      1.0,
+      0.002952255447372634,
+      -0.0016002760967239738,
+      0.9997683763504028,
       0.023141452126120916,
       1.0
     ],
     "label": 0,
-    "link": "file_58.txt"
+    "link": "Does_an_artificial_intelligence_perform_market_man.pdf"
   },
   {
     "id": 59,
     "feature": [
-      0.0,
-      0.0,
-      -0.784301221370697,
-      0.8150985240936279,
+      1.0,
+      0.005552043798958216,
+      -0.0010535733308643103,
+      0.99959796667099,
       0.02812656956303365,
       1.0
     ],
-    "label": 4,
-    "link": "file_59.txt"
+    "label": 0,
+    "link": "Early_Warning_Signals_for_Cryptocurrency_Market_St.pdf"
   },
   {
     "id": 60,
     "feature": [
+      5.0,
+      0.007008047476302907,
+      -0.015311010181903839,
       0.0,
-      0.0,
-      -0.6757981181144714,
-      0.9998819231987,
       0.030276940737552015,
       1.0
     ],
     "label": 4,
-    "link": "file_60.txt"
+    "link": "Economic valuation of tourism of the Sundarban Man.pdf"
   },
   {
     "id": 61,
     "feature": [
+      5.0,
+      0.006292893615386288,
+      -0.03764381259679794,
       0.0,
-      0.0,
-      -0.6748074889183044,
-      0.9993897676467896,
       0.039905852145073285,
       1.0
     ],
     "label": 4,
-    "link": "file_61.txt"
+    "link": "Education and Food Consumption Patterns_ Quasi-Exp.pdf"
   },
   {
     "id": 62,
     "feature": [
+      1.0,
+      0.0015332717140849592,
+      -0.00829022005200386,
       0.0,
-      0.0,
-      -0.6534333825111389,
-      0.01449139416217804,
       0.0390949448661034,
       1.0
     ],
     "label": 0,
-    "link": "file_62.txt"
+    "link": "Effect of stress on cardiorespiratory synchronizat.pdf"
   },
   {
     "id": 63,
     "feature": [
+      10.0,
+      0.015270005426090503,
+      -0.030982131138443947,
       0.0,
-      0.0,
-      -0.7590256333351135,
-      0.2380664050579071,
       0.025546367395156526,
       1.0
     ],
-    "label": 0,
-    "link": "file_63.txt"
+    "label": 2,
+    "link": "Election Bias_ Comparing Polls and Twitter in the .pdf"
   },
   {
     "id": 64,
     "feature": [
+      1.0,
+      0.0009407683242659069,
+      -0.020846042782068253,
       0.0,
-      0.0,
-      -0.42454710602760315,
-      0.999783456325531,
       0.02966154614712127,
       1.0
     ],
-    "label": 4,
-    "link": "file_64.txt"
+    "label": 0,
+    "link": "Environmental_Remediation_Applications_of_Carbon_N.pdf"
   },
   {
     "id": 65,
     "feature": [
-      0.0,
-      0.0,
-      -0.7829898595809937,
-      0.9999385476112366,
+      27.0,
+      0.024109699266591754,
+      -0.10285553336143494,
+      0.9999397993087769,
       0.03495189416716777,
       1.0
     ],
-    "label": 4,
-    "link": "file_65.txt"
+    "label": 1,
+    "link": "Equity in College Physics Student Learning_ a Crit.pdf"
   },
   {
     "id": 66,
     "feature": [
+      4.0,
+      0.0062282482379028715,
+      -0.011657152324914932,
       0.0,
-      0.0,
-      -0.7345559000968933,
-      0.9999029636383057,
       0.035600236546422234,
       1.0
     ],
     "label": 4,
-    "link": "file_66.txt"
+    "link": "Equity, diversity, and inclusion in sports analyti.pdf"
   },
   {
     "id": 67,
     "feature": [
+      15.0,
+      0.010956037699236648,
+      -0.08659866452217102,
       0.0,
-      0.0,
-      -0.7497485280036926,
-      0.9999368786811829,
       0.0366182014001077,
       1.0
     ],
-    "label": 4,
-    "link": "file_67.txt"
+    "label": 2,
+    "link": "Estimating the Effects of Syrian Civil War.pdf"
   },
   {
     "id": 68,
     "feature": [
-      0.0,
-      0.0,
-      -0.7099968194961548,
+      2.0,
+      0.0034552725803719026,
+      -0.010799240320920944,
       0.0,
       0.02938517179023508,
       1.0
     ],
     "label": 0,
-    "link": "file_68.txt"
+    "link": "Estimation of Nonlinear Three-dimensional Constitu.pdf"
   },
   {
     "id": 69,
     "feature": [
-      0.0,
-      0.0,
-      -0.7293792963027954,
+      9.0,
+      0.0050210066460447825,
+      -0.06104561686515808,
       0.0,
       0.0180282605164853,
       1.0
     ],
-    "label": 0,
-    "link": "file_69.txt"
+    "label": 2,
+    "link": "Euler characteristics of Gothic Teichmüller curves.pdf"
   },
   {
     "id": 70,
     "feature": [
+      2.0,
+      0.0031574897994348645,
+      -0.006575525738298893,
       0.0,
-      0.0,
-      -0.607679545879364,
-      0.40941980481147766,
       0.03557254152579744,
       1.0
     ],
     "label": 0,
-    "link": "file_70.txt"
+    "link": "European Historical Evidence Of The Supernova Of A.pdf"
   },
   {
     "id": 71,
     "feature": [
+      1.0,
+      0.0018594814302112788,
+      -0.008606557734310627,
       0.0,
-      0.0,
-      -0.7535677552223206,
-      0.057521503418684006,
       0.03161063723030607,
       1.0
     ],
     "label": 0,
-    "link": "file_71.txt"
+    "link": "Evolutionary_techniques_in_lattice_sieving_algorit.pdf"
   },
   {
     "id": 72,
     "feature": [
-      0.0,
-      0.0,
-      -0.6117668151855469,
+      1.0,
+      0.001814377114909363,
+      -0.003742475062608719,
       0.0,
       0.024985038898862957,
       1.0
     ],
     "label": 0,
-    "link": "file_72.txt"
+    "link": "Experimental Tests of the Standard Model.pdf"
   },
   {
     "id": 73,
     "feature": [
       6.0,
-      0.004750002514544763,
-      -0.8092676401138306,
-      0.9092224836349487,
+      0.002092811481137684,
+      -0.0061982362531125546,
+      0.0,
       0.0255547703180212,
       1.0
     ],
-    "label": 2,
-    "link": "file_73.txt"
+    "label": 4,
+    "link": "Explaining Predictions from Machine Learning Model.pdf"
   },
   {
     "id": 74,
     "feature": [
-      0.0,
-      0.0,
-      -0.8058167695999146,
-      0.5287452340126038,
+      1.0,
+      0.0014684509461429507,
+      -0.013652619905769825,
+      0.9998921155929565,
       0.0274858528698464,
       1.0
     ],
-    "label": 4,
-    "link": "file_74.txt"
+    "label": 0,
+    "link": "Exploring object-centric and scene-centric CNN fea.pdf"
   },
   {
     "id": 75,
     "feature": [
-      0.0,
-      0.0,
-      -0.8142654299736023,
-      0.9313499331474304,
+      2.0,
+      0.0020904816829277577,
+      -0.050081443041563034,
+      0.9999170303344727,
       0.02744123433778606,
       1.0
     ],
-    "label": 4,
-    "link": "file_75.txt"
+    "label": 0,
+    "link": "Exploring sustainable alternatives for the deploym.pdf"
   },
   {
     "id": 76,
     "feature": [
-      0.0,
-      0.0,
-      -0.585548996925354,
+      5.0,
+      0.005094765123126165,
+      -0.014600658789277077,
       0.0,
       0.02823944697749669,
       1.0
     ],
-    "label": 0,
-    "link": "file_76.txt"
+    "label": 4,
+    "link": "Exploring_Document-Level_Literary_Machine_Translat.pdf"
   },
   {
     "id": 77,
     "feature": [
       4.0,
-      0.006799649538597484,
-      -0.6917734146118164,
-      0.420433908700943,
+      0.003446424572009584,
+      -0.10277298092842102,
+      0.0,
       0.030150386917798217,
       1.0
     ],
-    "label": 2,
-    "link": "file_77.txt"
+    "label": 4,
+    "link": "Exposure to War and Its Labor Market Consequences .pdf"
   },
   {
     "id": 78,
     "feature": [
-      0.0,
-      0.0,
-      -0.8578189611434937,
+      1.0,
+      0.0004285611344816881,
+      -0.24084630608558655,
       0.0,
       0.019676057944564847,
       1.0
     ],
     "label": 0,
-    "link": "file_78.txt"
+    "link": "Exterior_and_evolutionary_skew-symmetric_different.pdf"
   },
   {
     "id": 79,
     "feature": [
+      1.0,
+      0.0008702481942797029,
+      -0.04809937998652458,
       0.0,
-      0.0,
-      -0.7105882167816162,
-      0.011116204783320427,
       0.02821011673151751,
       1.0
     ],
     "label": 0,
-    "link": "file_79.txt"
+    "link": "Extreme-Value Statistics of Stochastic Transport P.pdf"
   },
   {
     "id": 80,
     "feature": [
       1.0,
-      0.0008124991640426436,
-      0.0003440696164034307,
+      0.0007852453418066749,
+      -0.10448381304740906,
       0.0,
       0.010048324000920457,
       0.0
     ],
     "label": 0,
-    "link": "file_80.txt"
+    "link": "Feedback_effect_between_Volatility_of_capital_flow.pdf"
   },
   {
     "id": 81,
     "feature": [
+      1.0,
+      0.0007973733767684171,
+      -0.04685534909367561,
       0.0,
-      0.0,
-      -0.6788123250007629,
-      0.02890562079846859,
       0.027063197026022306,
       1.0
     ],
     "label": 0,
-    "link": "file_81.txt"
+    "link": "Fertilizer usage and cadmium in soils, crops and f.pdf"
   },
   {
     "id": 82,
     "feature": [
+      1.0,
+      0.0009984267206157645,
+      -0.08401789516210556,
       0.0,
-      0.0,
-      -0.7724493145942688,
-      0.019388310611248016,
       0.024362052102782965,
       1.0
     ],
     "label": 0,
-    "link": "file_82.txt"
+    "link": "Flexible Representative Democracy_ An Introduction.pdf"
   },
   {
     "id": 83,
     "feature": [
       2.0,
-      0.001516931231859995,
-      -0.8096789121627808,
-      0.7805296778678894,
+      0.0005591503545329497,
+      -0.04073883965611458,
+      0.0,
       0.03409816734633715,
       1.0
     ],
-    "label": 4,
-    "link": "file_83.txt"
+    "label": 0,
+    "link": "Foundations_of_scientific_research_(Foundations_of.pdf"
   },
   {
     "id": 84,
     "feature": [
+      1.0,
+      0.0011943979384801103,
+      -0.008338171988725662,
       0.0,
-      0.0,
-      -0.8184722661972046,
-      0.023327503353357315,
       0.03434232250963126,
       1.0
     ],
     "label": 0,
-    "link": "file_84.txt"
+    "link": "Four revolutions in physics and the second quantum.pdf"
   },
   {
     "id": 85,
     "feature": [
       2.0,
-      0.002669639411254173,
-      -0.6811579465866089,
-      0.9949700832366943,
+      0.0013900558028252035,
+      -0.0489872545003891,
+      0.0,
       0.045098151433640474,
       1.0
     ],
-    "label": 4,
-    "link": "file_85.txt"
+    "label": 0,
+    "link": "From Assistive Technologies to Metaverse_ Technolo.pdf"
   },
   {
     "id": 86,
     "feature": [
+      1.0,
+      0.0011592786819356552,
+      -0.035633765161037445,
       0.0,
-      0.0,
-      -0.8224779963493347,
-      0.20557431876659393,
       0.02497434143003763,
       1.0
     ],
     "label": 0,
-    "link": "file_86.txt"
+    "link": "From old wars to new wars and global terrorism.pdf"
   },
   {
     "id": 87,
     "feature": [
-      0.0,
-      0.0,
-      -0.6564744114875793,
+      5.0,
+      0.005628289993541006,
+      -0.046265214681625366,
       0.0,
       0.0203179381055404,
       1.0
     ],
-    "label": 0,
-    "link": "file_87.txt"
+    "label": 4,
+    "link": "Functional central limit theorem for negatively de.pdf"
   },
   {
     "id": 88,
     "feature": [
+      1.0,
+      0.0013859591206132151,
+      -0.029568688943982124,
       0.0,
-      0.0,
-      -0.747312605381012,
-      0.533123791217804,
       0.05071077091306725,
       1.0
     ],
-    "label": 4,
-    "link": "file_88.txt"
+    "label": 0,
+    "link": "Gender-specific Call of Duty_ A Note on the Neglec.pdf"
   },
   {
     "id": 89,
     "feature": [
       9.0,
-      0.018064160157258927,
-      -0.6287461519241333,
+      0.009398500135301083,
+      -0.04730485379695892,
       0.0,
       0.032063310761197686,
       1.0
     ],
     "label": 2,
-    "link": "file_89.txt"
+    "link": "Genetic control of plasticity of oil yield for com.pdf"
   },
   {
     "id": 90,
     "feature": [
-      0.0,
-      0.0,
-      -0.6697546243667603,
+      1.0,
+      0.006805083390513188,
+      -0.0009344250429421663,
       0.0,
       0.02101769911504425,
       1.0
     ],
     "label": 0,
-    "link": "file_90.txt"
+    "link": "Geometrical_perspective_on_quantum_states_and_quan.pdf"
   },
   {
     "id": 91,
     "feature": [
-      0.0,
-      0.0,
-      -0.6421830654144287,
+      1.0,
+      0.0016877907568917199,
+      -0.009537902660667896,
       0.0,
       0.02803990293879752,
       1.0
     ],
     "label": 0,
-    "link": "file_91.txt"
+    "link": "GNN-based_Probabilistic_Supply_and_Inventory_Predi.pdf"
   },
   {
     "id": 92,
     "feature": [
+      1.0,
+      0.0008928781411151873,
+      -0.1492994725704193,
       0.0,
-      0.0,
-      -0.7403172850608826,
-      0.11728785932064056,
       0.03612167300380228,
       1.0
     ],
     "label": 0,
-    "link": "file_92.txt"
+    "link": "Gummy's Way Out -- a Tangible Interactive Narrativ.pdf"
   },
   {
     "id": 93,
     "feature": [
       5.0,
-      0.009511035766507038,
-      -0.6964823603630066,
+      0.004916002597120925,
+      -0.06928364932537079,
       0.0,
       0.024492920015308076,
       1.0
     ],
-    "label": 2,
-    "link": "file_93.txt"
+    "label": 4,
+    "link": "gym-DSSAT_ a crop model turned into a Reinforcemen.pdf"
   },
   {
     "id": 94,
     "feature": [
+      1.0,
+      0.0008176814421173901,
+      -0.0710991621017456,
       0.0,
-      0.0,
-      -0.8166230916976929,
-      0.8356290459632874,
       0.01951919626838895,
       1.0
     ],
-    "label": 4,
-    "link": "file_94.txt"
+    "label": 0,
+    "link": "Hacker Combat_ A Competitive Sport from Programmat.pdf"
   },
   {
     "id": 95,
     "feature": [
+      1.0,
+      0.0016518458933893498,
+      -0.014647873118519783,
       0.0,
-      0.0,
-      -0.5843176245689392,
-      0.999899685382843,
       0.017757236682072488,
       1.0
     ],
-    "label": 4,
-    "link": "file_95.txt"
+    "label": 0,
+    "link": "Identification of Conduit Countries and Community .pdf"
   },
   {
     "id": 96,
     "feature": [
-      0.0,
-      0.0,
-      -0.6971476674079895,
+      7.0,
+      0.014093153560960374,
+      -0.004722242243587971,
       0.0,
       0.024957216200798632,
       1.0
     ],
-    "label": 0,
-    "link": "file_96.txt"
+    "label": 4,
+    "link": "Identifying_Dwarfs_Workloads_in_Big_Data_Analytics.pdf"
   },
   {
     "id": 97,
     "feature": [
       1.0,
-      0.001516167506269735,
-      -0.7872820496559143,
-      0.3680487275123596,
+      0.0008160625510718035,
+      -0.08844441175460815,
+      0.0,
       0.03181538881682256,
       1.0
     ],
     "label": 0,
-    "link": "file_97.txt"
+    "link": "Ideological Ambiguity and Political Spectrum.pdf"
   },
   {
     "id": 98,
     "feature": [
+      1.0,
+      0.008084785047523392,
+      -0.0009792519267648458,
       0.0,
-      0.0,
-      -0.7658882737159729,
-      0.9993278980255127,
       0.03152789005658852,
       1.0
     ],
-    "label": 4,
-    "link": "file_98.txt"
+    "label": 0,
+    "link": "Impact_of_Artificial_Intelligence_on_Economic_Theo.pdf"
   },
   {
     "id": 99,
     "feature": [
-      0.0,
-      0.0,
-      -0.6736569404602051,
+      2.0,
+      0.0013676624471460825,
+      0.013565098866820335,
       0.0,
       0.01691780821917808,
       1.0
     ],
     "label": 0,
-    "link": "file_99.txt"
+    "link": "Improving the soil water module of the Decision Su.pdf"
   },
   {
     "id": 100,
     "feature": [
+      11.0,
+      0.013797163430587265,
+      -0.037323471158742905,
       0.0,
-      0.0,
-      -0.6704534888267517,
-      0.01729578711092472,
       0.030121591746499633,
       1.0
     ],
-    "label": 0,
-    "link": "file_100.txt"
+    "label": 2,
+    "link": "Increased genetic diversity improves crop yield st.pdf"
   },
   {
     "id": 101,
     "feature": [
+      2.0,
+      0.0027810091448922276,
+      -0.016197986900806427,
       0.0,
-      0.0,
-      -0.7990080118179321,
-      0.9998959898948669,
       0.027184220508281703,
       1.0
     ],
-    "label": 4,
-    "link": "file_101.txt"
+    "label": 0,
+    "link": "Inequality is rising where social network segregat.pdf"
   },
   {
     "id": 102,
     "feature": [
-      0.0,
-      0.0,
-      -0.6208385229110718,
-      0.0,
+      1.0,
+      0.0010216028948196987,
+      -0.09163887798786163,
+      0.9999352097511292,
       0.034937323089365147,
       1.0
     ],
     "label": 0,
-    "link": "file_102.txt"
+    "link": "Inference for stochastic kinetic models from multi.pdf"
   },
   {
     "id": 103,
     "feature": [
-      0.0,
-      0.0,
-      -0.7852686047554016,
-      0.9398183822631836,
+      1.0,
+      0.0008244328461604717,
+      0.009512284770607948,
+      0.9999303817749023,
       0.021720243266724587,
       1.0
     ],
-    "label": 4,
-    "link": "file_103.txt"
+    "label": 0,
+    "link": "Influencing a Polarized and Connected Legislature.pdf"
   },
   {
     "id": 104,
     "feature": [
+      1.0,
+      0.0014444473690075103,
+      -0.016837233677506447,
       0.0,
-      0.0,
-      -0.6692810654640198,
-      0.9965577125549316,
       0.03147100424328147,
       1.0
     ],
-    "label": 4,
-    "link": "file_104.txt"
+    "label": 0,
+    "link": "Information, communication and music_ Recognition .pdf"
   },
   {
     "id": 105,
     "feature": [
-      0.0,
-      0.0,
-      -0.726216733455658,
+      1.0,
+      0.0027157073435105966,
+      -0.0020241534803062677,
       0.0,
       0.017356881851400732,
       1.0
     ],
     "label": 0,
-    "link": "file_105.txt"
+    "link": "Information_Geometry_and_Evolutionary_Game_Theory.pdf"
   },
   {
     "id": 106,
     "feature": [
+      1.0,
+      0.0010493202540855892,
+      -0.02364184334874153,
       0.0,
-      0.0,
-      -0.7296004891395569,
-      0.9999252557754517,
       0.020307305238565908,
       1.0
     ],
-    "label": 4,
-    "link": "file_106.txt"
+    "label": 0,
+    "link": "Interdependencies_of_female_board_member_appointme.pdf"
   },
   {
     "id": 107,
     "feature": [
-      0.0,
-      0.0,
-      -0.5893661975860596,
+      1.0,
+      0.004412184570412105,
+      -0.0019002642948180437,
       0.0,
       0.038187159043222826,
       1.0
     ],
     "label": 0,
-    "link": "file_107.txt"
+    "link": "Interoperability_and_Standardization_of_Intercloud.pdf"
   },
   {
     "id": 108,
     "feature": [
       13.0,
-      0.02461041717084313,
-      -0.809463620185852,
-      0.9997442364692688,
+      0.011714269525660207,
+      -0.09794386476278305,
+      0.0,
       0.02423850690797447,
       1.0
     ],
-    "label": 1,
-    "link": "file_108.txt"
+    "label": 2,
+    "link": "Intersectional inequalities in social networks.pdf"
   },
   {
     "id": 109,
     "feature": [
       1.0,
-      0.0032873799323670043,
-      -0.5784929990768433,
-      0.0,
+      0.001847179632644464,
+      -0.003302848432213068,
+      0.9998719096183777,
       0.010076775431861805,
       1.0
     ],
     "label": 0,
-    "link": "file_109.txt"
+    "link": "Irrigable Measures for Weighted Irrigation Plans.pdf"
   },
   {
     "id": 110,
     "feature": [
-      0.0,
-      0.0,
-      -0.6692829132080078,
+      1.0,
+      0.0015136667233572707,
+      -0.017798248678445816,
       0.0,
       0.021891307114674814,
       1.0
     ],
     "label": 0,
-    "link": "file_110.txt"
+    "link": "Isomorphisms of Discriminant Algebras.pdf"
   },
   {
     "id": 111,
     "feature": [
-      0.0,
-      0.0,
-      -0.7496740221977234,
-      0.9998973608016968,
+      1.0,
+      0.001332290410112557,
+      -0.01996665820479393,
+      0.9999004006385803,
       0.034692862472021885,
       1.0
     ],
-    "label": 4,
-    "link": "file_111.txt"
+    "label": 0,
+    "link": "Knowledge transfer in a tourism destination_ the e.pdf"
   },
   {
     "id": 112,
     "feature": [
-      0.0,
-      0.0,
-      -0.6305529475212097,
+      1.0,
+      0.0020749344194919577,
+      -0.0038019625935703516,
       0.0,
       0.016264829697665517,
       1.0
     ],
     "label": 0,
-    "link": "file_112.txt"
+    "link": "Lagrangian and Hamiltonian constraints for guiding.pdf"
   },
   {
     "id": 113,
     "feature": [
       3.0,
-      0.006624565071105239,
-      -0.6823991537094116,
-      0.013939767144620419,
+      0.0036981839390450703,
+      -0.029952721670269966,
+      0.0,
       0.0301707779886148,
       1.0
     ],
-    "label": 2,
-    "link": "file_113.txt"
+    "label": 4,
+    "link": "Learning_Macroeconomic_Policies_based_on_Microfoun.pdf"
   },
   {
     "id": 114,
     "feature": [
+      1.0,
+      0.0013002076402368707,
+      -0.0352705754339695,
       0.0,
-      0.0,
-      -0.7467070817947388,
-      0.9998973608016968,
       0.03153942428035044,
       1.0
     ],
-    "label": 4,
-    "link": "file_114.txt"
+    "label": 0,
+    "link": "Long term dynamics of poverty transitions in India.pdf"
   },
   {
     "id": 115,
     "feature": [
+      1.0,
+      0.0011699003531845584,
+      -0.030067484825849533,
       0.0,
-      0.0,
-      -0.7582375407218933,
-      0.9994897842407227,
       0.044848610106437946,
       1.0
     ],
-    "label": 4,
-    "link": "file_115.txt"
+    "label": 0,
+    "link": "Macroeconomic_and_financial_management_in_an_uncer.pdf"
   },
   {
     "id": 116,
     "feature": [
-      0.0,
-      0.0,
-      -0.7708685994148254,
+      1.0,
+      0.0009436599774364659,
+      -0.08717808872461319,
       0.0,
       0.02074688796680498,
       1.0
     ],
     "label": 0,
-    "link": "file_116.txt"
+    "link": "Magic state cultivation_ growing T states as cheap.pdf"
   },
   {
     "id": 117,
     "feature": [
       32.0,
-      0.06003371272344125,
-      -0.645464301109314,
-      0.02011619135737419,
+      0.029303095523312794,
+      -0.09425538033246994,
+      0.0,
       0.026113951789627464,
       1.0
     ],
     "label": 3,
-    "link": "file_117.txt"
+    "link": "MANGO_ A Benchmark for Evaluating Mapping and Navi.pdf"
   },
   {
     "id": 118,
     "feature": [
       16.0,
-      0.02130293262870108,
-      -0.6601577401161194,
-      0.999782383441925,
+      0.012073219730445622,
+      -0.01636887900531292,
+      0.9999570846557617,
       0.02602827763496144,
       1.0
     ],
     "label": 1,
-    "link": "file_118.txt"
+    "link": "Mapping Language Literacy At Scale_ A Case Study o.pdf"
   },
   {
     "id": 119,
     "feature": [
-      0.0,
-      0.0,
-      -0.7417632937431335,
-      0.01874322071671486,
+      1.0,
+      0.0012589955955079266,
+      -0.022749748080968857,
+      0.9999114871025085,
       0.03149519283898773,
       1.0
     ],
     "label": 0,
-    "link": "file_119.txt"
+    "link": "Mapping News Narratives Using LLMs and Narrative-S.pdf"
   },
   {
     "id": 120,
     "feature": [
+      1.0,
+      0.0010947775042919167,
+      -0.04695616662502289,
       0.0,
-      0.0,
-      -0.7745760083198547,
-      0.01729116216301918,
       0.023520264359996112,
       1.0
     ],
     "label": 0,
-    "link": "file_120.txt"
+    "link": "Marvel DC_ A Blockchain-Based Decentralized and In.pdf"
   },
   {
     "id": 121,
     "feature": [
+      2.0,
+      0.003019092349559784,
+      -0.03682566061615944,
       0.0,
-      0.0,
-      -0.8132336735725403,
-      0.978514552116394,
       0.02622851974675912,
       1.0
     ],
-    "label": 4,
-    "link": "file_121.txt"
+    "label": 0,
+    "link": "Marvel Universe looks almost like a real social ne.pdf"
   },
   {
     "id": 122,
     "feature": [
-      0.0,
-      0.0,
-      -0.7029480934143066,
+      1.0,
+      0.0008322198283833437,
+      -0.04355466365814209,
       0.0,
       0.02150361129349967,
       1.0
     ],
     "label": 0,
-    "link": "file_122.txt"
+    "link": "Masur-Veech_volume_of_the_gothic_locus.pdf"
   },
   {
     "id": 123,
     "feature": [
-      0.0,
-      0.0,
-      -0.7339748740196228,
+      2.0,
+      0.0017179784984774442,
+      -0.09480883181095123,
       0.0,
       0.022132368589061504,
       1.0
     ],
     "label": 0,
-    "link": "file_123.txt"
+    "link": "Measuring Code Efficiency Optimization Capabilitie.pdf"
   },
   {
     "id": 124,
     "feature": [
+      1.0,
+      0.0011451763935530382,
+      -0.03808441013097763,
       0.0,
-      0.0,
-      -0.8076121211051941,
-      0.9562374949455261,
       0.027367592045678284,
       1.0
     ],
-    "label": 4,
-    "link": "file_124.txt"
+    "label": 0,
+    "link": "Meta-analysis of dichotomous and ordinal tests wit.pdf"
   },
   {
     "id": 125,
     "feature": [
+      1.0,
+      0.002319467763624341,
+      -0.0061868783086538315,
       0.0,
-      0.0,
-      -0.7528998851776123,
-      0.7872076034545898,
       0.017939814814814815,
       1.0
     ],
-    "label": 4,
-    "link": "file_125.txt"
+    "label": 0,
+    "link": "Minimax_deviation_strategies_for_machine_learning_.pdf"
   },
   {
     "id": 126,
     "feature": [
+      1.0,
+      0.000910134024008596,
+      -0.1257207691669464,
       0.0,
-      0.0,
-      -0.84597247838974,
-      0.2216527909040451,
       0.025636209972767394,
       1.0
     ],
     "label": 0,
-    "link": "file_126.txt"
+    "link": "Momentum_Informed_Inflation-at-Risk.pdf"
   },
   {
     "id": 127,
     "feature": [
       1.0,
-      0.0030050895202831623,
-      -0.6957442164421082,
-      0.011565457098186016,
+      0.0013340509492991619,
+      -0.009184087626636028,
+      0.9999107718467712,
       0.027858257187430353,
       1.0
     ],
     "label": 0,
-    "link": "file_127.txt"
+    "link": "Multi-Party Dynamic State Estimation that Preserve.pdf"
   },
   {
     "id": 128,
     "feature": [
+      2.0,
+      0.0012112946104037513,
+      -0.1563851684331894,
       0.0,
-      0.0,
-      -0.8775399923324585,
-      0.04281896725296974,
       0.029494150601417038,
       1.0
     ],
     "label": 0,
-    "link": "file_128.txt"
+    "link": "Narrative Maps_ An Algorithmic Approach to Represe.pdf"
   },
   {
     "id": 129,
     "feature": [
+      1.0,
+      0.0008691365053029275,
+      -0.04227639362215996,
       0.0,
-      0.0,
-      -0.7078930735588074,
-      0.9990788698196411,
       0.0312943562014194,
       1.0
     ],
-    "label": 4,
-    "link": "file_129.txt"
+    "label": 0,
+    "link": "Network Analyses and Nervous System Disorders.pdf"
   },
   {
     "id": 130,
     "feature": [
+      1.0,
+      0.0009811761661670034,
+      -0.09003063291311264,
       0.0,
-      0.0,
-      -0.6952275037765503,
-      0.9767137765884399,
       0.023377561151728496,
       1.0
     ],
-    "label": 4,
-    "link": "file_130.txt"
+    "label": 0,
+    "link": "Non-equilibrium dynamics of bacterial colonies -- .pdf"
   },
   {
     "id": 131,
     "feature": [
-      0.0,
-      0.0,
-      -0.6838886141777039,
-      0.0,
+      1.0,
+      0.0009473869280827515,
+      -0.015071063302457333,
+      0.9999446272850037,
       0.025375095070179078,
       1.0
     ],
     "label": 0,
-    "link": "file_131.txt"
+    "link": "Nonparametric_Modern_Hopfield_Models.pdf"
   },
   {
     "id": 132,
     "feature": [
+      2.0,
+      0.004822680577871757,
+      -0.005983033217489719,
       0.0,
-      0.0,
-      -0.8183819651603699,
-      0.29174527525901794,
       0.04648978633482038,
       1.0
     ],
     "label": 0,
-    "link": "file_132.txt"
+    "link": "Novel_Approach_for_Cybersecurity_Workforce_Develop.pdf"
   },
   {
     "id": 133,
     "feature": [
+      3.0,
+      0.010327221235819115,
+      -0.002180900890380144,
       0.0,
-      0.0,
-      -0.7434051632881165,
-      0.014136883430182934,
       0.020675944333996023,
       1.0
     ],
-    "label": 0,
-    "link": "file_133.txt"
+    "label": 4,
+    "link": "On the paradox of pesticides.pdf"
   },
   {
     "id": 134,
     "feature": [
+      2.0,
+      0.009104274344907527,
+      -0.0011911505134776235,
       0.0,
-      0.0,
-      -0.7680986523628235,
-      0.9995356202125549,
       0.031221303948576674,
       1.0
     ],
-    "label": 4,
-    "link": "file_134.txt"
+    "label": 0,
+    "link": "On_Robot_Revolution_and_Taxation.pdf"
   },
   {
     "id": 135,
     "feature": [
-      0.0,
-      0.0,
-      -0.7289166450500488,
+      1.0,
+      0.0006730359049787898,
+      -0.12014810740947723,
       0.0,
       0.018442622950819672,
       1.0
     ],
     "label": 0,
-    "link": "file_135.txt"
+    "link": "On_the_inflation_and_deflation_dynamics_of_liquid-.pdf"
   },
   {
     "id": 136,
     "feature": [
+      1.0,
+      0.0019331622517483526,
+      -0.01196578610688448,
       0.0,
-      0.0,
-      -0.7126502990722656,
-      0.10967028886079788,
       0.024107850911974624,
       1.0
     ],
     "label": 0,
-    "link": "file_136.txt"
+    "link": "Open_Source_Handwritten_Text_Recognition_on_Mediev.pdf"
   },
   {
     "id": 137,
     "feature": [
-      0.0,
-      0.0,
-      -0.6833239197731018,
+      1.0,
+      0.00016819629381252969,
+      0.05338438227772713,
       0.0,
       0.02019964768056371,
       1.0
     ],
     "label": 0,
-    "link": "file_137.txt"
+    "link": "Operads of Wiring Diagrams.pdf"
   },
   {
     "id": 138,
     "feature": [
-      0.0,
-      0.0,
-      -0.7519460320472717,
-      0.9996533393859863,
+      1.0,
+      0.0016391944905491122,
+      -0.016488978639245033,
+      0.999882161617279,
       0.04031190230984258,
       1.0
     ],
-    "label": 4,
-    "link": "file_138.txt"
+    "label": 0,
+    "link": "Opportunities and challenges of mobile learning fo.pdf"
   },
   {
     "id": 139,
     "feature": [
-      0.0,
-      0.0,
-      -0.7844704985618591,
-      0.0,
+      4.0,
+      0.006117209175452877,
+      -0.021366622298955917,
+      0.9998893737792969,
       0.025545429439381387,
       1.0
     ],
-    "label": 0,
-    "link": "file_139.txt"
+    "label": 4,
+    "link": "Optimal Ferrers Diagram Rank-Metric Codes.pdf"
   },
   {
     "id": 140,
     "feature": [
+      2.0,
+      0.0043392524344157786,
+      -0.005000354256480932,
       0.0,
-      0.0,
-      -0.7021280527114868,
-      0.19070735573768616,
       0.019646854016413827,
       1.0
     ],
     "label": 0,
-    "link": "file_140.txt"
+    "link": "Optimal_portfolio_for_a_robust_financial_system.pdf"
   },
   {
     "id": 141,
     "feature": [
       1.0,
-      0.00157205373348897,
-      -0.7858961820602417,
+      0.0009362319171023765,
+      -0.06860992312431335,
       0.0,
       0.02826065844420705,
       1.0
     ],
     "label": 0,
-    "link": "file_141.txt"
+    "link": "Out-Of-Place debugging_ a debugging architecture t.pdf"
   },
   {
     "id": 142,
     "feature": [
+      1.0,
+      0.0011922347495253996,
+      -0.023715471848845482,
       0.0,
-      0.0,
-      -0.6637014150619507,
-      0.9999157190322876,
       0.04190943473372176,
       1.0
     ],
-    "label": 4,
-    "link": "file_142.txt"
+    "label": 0,
+    "link": "Participatory Ecosystem Management Planning at Tuz.pdf"
   },
   {
     "id": 143,
     "feature": [
-      0.0,
-      0.0,
-      -0.7890117168426514,
-      0.9999626278877258,
+      1.0,
+      0.00048481391070245595,
+      -0.22123529016971588,
+      0.9999635219573975,
       0.029701166180758017,
       1.0
     ],
-    "label": 4,
-    "link": "file_143.txt"
+    "label": 0,
+    "link": "Pay Transparency and Gender Equality.pdf"
   },
   {
     "id": 144,
     "feature": [
+      1.0,
+      0.0008286742047520606,
+      -0.10167188942432404,
       0.0,
-      0.0,
-      -0.8164336085319519,
-      0.9998977184295654,
       0.02871961603963462,
       1.0
     ],
-    "label": 4,
-    "link": "file_144.txt"
+    "label": 0,
+    "link": "Phase Transitions of Civil Unrest across Countries.pdf"
   },
   {
     "id": 145,
     "feature": [
+      4.0,
+      0.0027358981142279097,
+      -0.1637846976518631,
       0.0,
-      0.0,
-      -0.711292028427124,
-      0.9999417066574097,
       0.03090727816550349,
       1.0
     ],
     "label": 4,
-    "link": "file_145.txt"
+    "link": "Populating the Digital Space for Cultural Heritage.pdf"
   },
   {
     "id": 146,
     "feature": [
-      0.0,
-      0.0,
-      -0.6355581283569336,
-      0.999944269657135,
+      4.0,
+      0.0029010668658744384,
+      -0.17722319066524506,
+      0.9999461770057678,
       0.051511081262592344,
       1.0
     ],
     "label": 4,
-    "link": "file_146.txt"
+    "link": "Pre-Construction of Opinion Dynamics Considering S.pdf"
   },
   {
     "id": 147,
     "feature": [
-      0.0,
-      0.0,
-      -0.9265857934951782,
-      0.05143468827009201,
+      1.0,
+      0.0014826273505147744,
+      -0.016902979463338852,
+      0.9998717308044434,
       0.026269421752362646,
       1.0
     ],
     "label": 0,
-    "link": "file_147.txt"
+    "link": "Predicting litigation likelihood and time to litig.pdf"
   },
   {
     "id": 148,
     "feature": [
-      0.0,
-      0.0,
-      -0.7481255531311035,
-      0.9985350370407104,
+      1.0,
+      0.0013422298862508155,
+      -0.0128878653049469,
+      0.999915361404419,
       0.02714979928163955,
       1.0
     ],
-    "label": 4,
-    "link": "file_148.txt"
+    "label": 0,
+    "link": "Predicting sports scoring dynamics with restoratio.pdf"
   },
   {
     "id": 149,
     "feature": [
-      0.0,
-      0.0,
-      -0.8325552940368652,
-      0.9077928066253662,
+      1.0,
+      0.0013728857108382829,
+      -0.05623141676187515,
+      0.9998922348022461,
       0.029467168998923574,
       1.0
     ],
-    "label": 4,
-    "link": "file_149.txt"
+    "label": 0,
+    "link": "Predicting Tourism Demand in Indonesia Using Googl.pdf"
   },
   {
     "id": 150,
     "feature": [
-      0.0,
-      0.0,
-      -0.5129138231277466,
+      1.0,
+      0.0016190961926620142,
+      -0.008529718033969402,
       0.0,
       0.04195804195804196,
       1.0
     ],
     "label": 0,
-    "link": "file_150.txt"
+    "link": "Prediction of soil fertility parameters using USB-.pdf"
   },
   {
     "id": 151,
     "feature": [
       2.0,
-      0.003951201014856388,
-      -0.7030016779899597,
-      0.9969738125801086,
+      0.0019425964654874392,
+      -0.06551659852266312,
+      0.0,
       0.018942528735632184,
       1.0
     ],
-    "label": 4,
-    "link": "file_151.txt"
+    "label": 0,
+    "link": "Projected distances to host galaxy reduce SNIa dis.pdf"
   },
   {
     "id": 152,
     "feature": [
-      0.0,
-      0.0,
-      -0.7845339775085449,
-      0.0,
+      1.0,
+      0.005150876889098168,
+      -0.0017059223027899861,
+      0.9996522665023804,
       0.0317115551694179,
       1.0
     ],
     "label": 0,
-    "link": "file_152.txt"
+    "link": "Prose for a Painting.pdf"
   },
   {
     "id": 153,
     "feature": [
-      0.0,
-      0.0,
-      -0.7845339775085449,
+      1.0,
+      0.005150876889098168,
+      -0.0017059223027899861,
       0.0,
       0.0317115551694179,
       1.0
     ],
     "label": 0,
-    "link": "file_153.txt"
+    "link": "Prose_for_a_Painting.pdf"
   },
   {
     "id": 154,
     "feature": [
+      11.0,
+      0.009209362134331855,
+      -0.23096223175525665,
       0.0,
-      0.0,
-      -0.8436298370361328,
-      0.36344826221466064,
       0.02076749435665914,
       1.0
     ],
-    "label": 0,
-    "link": "file_154.txt"
+    "label": 2,
+    "link": "Quantifying analogy of concepts via ologs and wiri.pdf"
   },
   {
     "id": 155,
     "feature": [
       2.0,
-      0.005208772345083656,
-      -0.6610833406448364,
-      0.11403162032365799,
+      0.002288456846558545,
+      -0.014387011528015137,
+      0.0,
       0.026041117554032683,
       1.0
     ],
     "label": 0,
-    "link": "file_155.txt"
+    "link": "Quantitation of Cellular Dynamics in Growing Arabi.pdf"
   },
   {
     "id": 156,
     "feature": [
       6.0,
-      0.02219479565289414,
-      -0.6745097637176514,
+      0.00944520056042268,
+      -0.0068095955066382885,
       0.0,
       0.022236340533672173,
       1.0
     ],
-    "label": 2,
-    "link": "file_156.txt"
+    "label": 4,
+    "link": "Quasi-static_Ionization_of_Rydberg_Alkali-metal_At.pdf"
   },
   {
     "id": 157,
     "feature": [
-      0.0,
-      0.0,
-      -0.7153944373130798,
+      1.0,
+      0.0009461711894907353,
+      -0.020397702232003212,
       0.0,
       0.025061009949314813,
       1.0
     ],
     "label": 0,
-    "link": "file_157.txt"
+    "link": "Quasipolynomial Set-Based Symbolic Algorithms for .pdf"
   },
   {
     "id": 158,
     "feature": [
+      1.0,
+      0.0011264575935110396,
+      -0.06316407024860382,
       0.0,
-      0.0,
-      -0.7177278995513916,
-      0.8385652899742126,
       0.022988505747126436,
       1.0
     ],
-    "label": 4,
-    "link": "file_158.txt"
+    "label": 0,
+    "link": "Random Tree Model of Meaningful Memory.pdf"
   },
   {
     "id": 159,
     "feature": [
+      3.0,
+      0.0033093478134315684,
+      -0.04093940928578377,
       0.0,
-      0.0,
-      -0.8236362338066101,
-      0.9998937845230103,
       0.03574678278954894,
       1.0
     ],
     "label": 4,
-    "link": "file_159.txt"
+    "link": "Redefining Accountability_ Navigating Legal Challe.pdf"
   },
   {
     "id": 160,
     "feature": [
+      20.0,
+      0.015536470366302998,
+      -0.061102110892534256,
       0.0,
-      0.0,
-      -0.6215546727180481,
-      0.16044889390468597,
       0.034560432488093706,
       1.0
     ],
-    "label": 0,
-    "link": "file_160.txt"
+    "label": 1,
+    "link": "Relief_and_Stimulus_in_A_Cross-sector_Multi-produc.pdf"
   },
   {
     "id": 161,
     "feature": [
+      1.0,
+      0.001238662006476634,
+      -0.023450538516044617,
       0.0,
-      0.0,
-      -0.8675798177719116,
-      0.3646375834941864,
       0.03816146540027137,
       1.0
     ],
     "label": 0,
-    "link": "file_161.txt"
+    "link": "Research_on_accurate_stereo_portrait_generation_al.pdf"
   },
   {
     "id": 162,
     "feature": [
-      0.0,
-      0.0,
-      -0.798376202583313,
-      0.0,
+      1.0,
+      0.0011120265072202778,
+      -0.12424655258655548,
+      0.9999118447303772,
       0.027848101265822784,
       1.0
     ],
     "label": 0,
-    "link": "file_162.txt"
+    "link": "Resilient Self-Debugging Software Protection.pdf"
   },
   {
     "id": 163,
     "feature": [
+      38.0,
+      0.09760674646538477,
+      -0.0021555102430284023,
       0.0,
-      0.0,
-      -0.5600219368934631,
-      0.011895031668245792,
       0.01666063020644694,
       1.0
     ],
-    "label": 0,
-    "link": "file_163.txt"
+    "label": 3,
+    "link": "Results of the 2023 Census of Beat Saber Users_ Vi.pdf"
   },
   {
     "id": 164,
     "feature": [
+      1.0,
+      0.0017050800272088516,
+      -0.023472195491194725,
       0.0,
-      0.0,
-      -0.6593908071517944,
-      0.9990293979644775,
       0.05508544881367181,
       1.0
     ],
-    "label": 4,
-    "link": "file_164.txt"
+    "label": 0,
+    "link": "Robotics Applications in Neurology_ A Review of Re.pdf"
   },
   {
     "id": 165,
     "feature": [
+      1.0,
+      0.0010541979784588229,
+      -0.04903429374098778,
       0.0,
-      0.0,
-      -0.7232130765914917,
-      0.9784690141677856,
       0.02368321333838575,
       1.0
     ],
-    "label": 4,
-    "link": "file_165.txt"
+    "label": 0,
+    "link": "Routes_for_breaching_and_protecting_genetic_privac.pdf"
   },
   {
     "id": 166,
     "feature": [
-      0.0,
-      0.0,
-      -0.6381198167800903,
+      9.0,
+      0.015848804338906265,
+      -0.0020669777877628803,
       0.0,
       0.013508247824392779,
       1.0
     ],
-    "label": 0,
-    "link": "file_166.txt"
+    "label": 2,
+    "link": "Safe Policy Search for Lifelong Reinforcement Lear.pdf"
   },
   {
     "id": 167,
     "feature": [
+      1.0,
+      0.0012571497453160876,
+      -0.03989293798804283,
       0.0,
-      0.0,
-      -0.7544944882392883,
-      0.9999158382415771,
       0.03385657125269314,
       1.0
     ],
-    "label": 4,
-    "link": "file_167.txt"
+    "label": 0,
+    "link": "Science Factionalism_ How Group Identity Language .pdf"
   },
   {
     "id": 168,
     "feature": [
+      4.0,
+      0.0038679962416806836,
+      -0.06767278909683228,
       0.0,
-      0.0,
-      -0.8383339047431946,
-      0.8856757879257202,
       0.03048045462372998,
       1.0
     ],
     "label": 4,
-    "link": "file_168.txt"
+    "link": "Scoring dynamics across professional team sports_ .pdf"
   },
   {
     "id": 169,
     "feature": [
+      1.0,
+      0.0013489344995135399,
+      -0.03154049813747406,
       0.0,
-      0.0,
-      -0.621574878692627,
-      0.09895408898591995,
       0.032956573468173704,
       1.0
     ],
     "label": 0,
-    "link": "file_169.txt"
+    "link": "Sensor_technologies_in_cancer_research_for_new_dir.pdf"
   },
   {
     "id": 170,
     "feature": [
       1.0,
-      0.00537236658164274,
-      -0.6799563765525818,
+      0.0026613351429850703,
+      -0.00351641234010458,
       0.0,
       0.03018446059250978,
       1.0
     ],
     "label": 0,
-    "link": "file_170.txt"
+    "link": "Shakespearizing Modern Language Using Copy-Enriche.pdf"
   },
   {
     "id": 171,
     "feature": [
       1.0,
-      0.00537236658164274,
-      -0.6799563765525818,
+      0.0026613351429850703,
+      -0.00351641234010458,
       0.0,
       0.03018446059250978,
       1.0
     ],
     "label": 0,
-    "link": "file_171.txt"
+    "link": "Shakespearizing_Modern_Language_Using_Copy-Enriche.pdf"
   },
   {
     "id": 172,
     "feature": [
       1.0,
-      0.0028341260799961614,
-      -0.7054288387298584,
-      0.9998660683631897,
+      0.00138399323523475,
+      -0.05376475304365158,
+      0.9998919367790222,
       0.03656726487653488,
       1.0
     ],
-    "label": 4,
-    "link": "file_172.txt"
+    "label": 0,
+    "link": "Soccer_ a quantitative analysis of team resilience.pdf"
   },
   {
     "id": 173,
     "feature": [
+      1.0,
+      0.002325461918222167,
+      -0.004685011226683855,
       0.0,
-      0.0,
-      -0.7372972965240479,
-      0.11300882697105408,
       0.03611045551097475,
       1.0
     ],
     "label": 0,
-    "link": "file_173.txt"
+    "link": "Spatial_modeling_of_mental_health_on_outpatient_mo.pdf"
   },
   {
     "id": 174,
     "feature": [
-      0.0,
-      0.0,
-      -0.6445620656013489,
-      0.0,
+      7.0,
+      0.011607027572249481,
+      -0.01352396234869957,
+      0.9998950958251953,
       0.02579884756416972,
       1.0
     ],
-    "label": 0,
-    "link": "file_174.txt"
+    "label": 4,
+    "link": "Spoiler Susceptibility in Multi-District Party Ele.pdf"
   },
   {
     "id": 175,
     "feature": [
-      0.0,
-      0.0,
-      -0.583150327205658,
-      0.15125836431980133,
+      1.0,
+      0.003563030805865924,
+      -0.0015353626804426312,
+      0.9997955560684204,
       0.018376722817764167,
       1.0
     ],
     "label": 0,
-    "link": "file_175.txt"
+    "link": "Status_of_VHE_Astronomy_c.2000.pdf"
   },
   {
     "id": 176,
     "feature": [
+      1.0,
+      0.0013213475747991046,
+      -0.05690879747271538,
       0.0,
-      0.0,
-      -0.697169840335846,
-      0.16897624731063843,
       0.0395010395010395,
       1.0
     ],
     "label": 0,
-    "link": "file_176.txt"
+    "link": "Supply_Chain_Network_Security_Investment_Strategie.pdf"
   },
   {
     "id": 177,
     "feature": [
+      1.0,
+      0.002750826059555195,
+      -0.002590278862044215,
       0.0,
-      0.0,
-      -0.702519416809082,
-      0.020741965621709824,
       0.021832952526021833,
       1.0
     ],
     "label": 0,
-    "link": "file_177.txt"
+    "link": "Sustainability_of_Global_Economy_as_a_Quantum_Circ.pdf"
   },
   {
     "id": 178,
     "feature": [
+      1.0,
+      0.0015018452117303814,
+      -0.018667321652173996,
       0.0,
-      0.0,
-      -0.6957897543907166,
-      0.9552240371704102,
       0.024054982817869417,
       1.0
     ],
-    "label": 4,
-    "link": "file_178.txt"
+    "label": 0,
+    "link": "Syncopated Dynamical Decoupling for Suppressing Cr.pdf"
   },
   {
     "id": 179,
     "feature": [
+      1.0,
+      0.0014754077742233096,
+      -0.013391844928264618,
       0.0,
-      0.0,
-      -0.7812100648880005,
-      0.282006174325943,
       0.02564459930313589,
       1.0
     ],
     "label": 0,
-    "link": "file_179.txt"
+    "link": "Syntonets_ Toward A Harmony-Inspired General Model.pdf"
   },
   {
     "id": 180,
     "feature": [
+      1.0,
+      0.002529935471782794,
+      -0.0018657832406461239,
       0.0,
-      0.0,
-      -0.7824260592460632,
-      0.6084595322608948,
       0.030395852968897265,
       1.0
     ],
-    "label": 4,
-    "link": "file_180.txt"
+    "label": 0,
+    "link": "Systematic_Comparable_Company_Analysis_and_Computa.pdf"
   },
   {
     "id": 181,
     "feature": [
+      5.0,
+      0.0075598078647840395,
+      -0.01668364927172661,
       0.0,
-      0.0,
-      -0.6745231747627258,
-      0.9998776912689209,
       0.02594691321204891,
       1.0
     ],
     "label": 4,
-    "link": "file_181.txt"
+    "link": "The American Physical Society's Defense of Human R.pdf"
   },
   {
     "id": 182,
     "feature": [
+      1.0,
+      0.0009419186167589306,
+      -0.06279555708169937,
       0.0,
-      0.0,
-      -0.8353992104530334,
-      0.9953293204307556,
       0.025028549676437,
       1.0
     ],
-    "label": 4,
-    "link": "file_182.txt"
+    "label": 0,
+    "link": "The Cultural Evolution of National Constitutions.pdf"
   },
   {
     "id": 183,
     "feature": [
+      6.0,
+      0.005315649168738823,
+      -0.11306107044219971,
       0.0,
-      0.0,
-      -0.7256873846054077,
-      0.09990059584379196,
       0.031932773109243695,
       1.0
     ],
-    "label": 0,
-    "link": "file_183.txt"
+    "label": 4,
+    "link": "The Economic Consequences of Being Widowed by War_.pdf"
   },
   {
     "id": 184,
     "feature": [
       1.0,
-      0.0014167880934998682,
-      -0.8031060099601746,
-      0.41072651743888855,
+      0.0007095568536640612,
+      -0.08406807482242584,
+      0.0,
       0.03419746276889134,
       1.0
     ],
     "label": 0,
-    "link": "file_184.txt"
+    "link": "The economic consequences of geopolitical fragment.pdf"
   },
   {
     "id": 185,
     "feature": [
-      0.0,
-      0.0,
-      -0.7527875304222107,
-      0.9999338388442993,
+      1.0,
+      0.0007071226916261036,
+      -0.11609147489070892,
+      0.9999403953552246,
       0.03265397203213329,
       1.0
     ],
-    "label": 4,
-    "link": "file_185.txt"
+    "label": 0,
+    "link": "The Heritage Digital Twin_ a bicycle made for two..pdf"
   },
   {
     "id": 186,
     "feature": [
       1.0,
-      0.0024356086435791736,
-      -0.5830994844436646,
+      0.0017571436372789454,
+      -0.009897283278405666,
       0.0,
       0.011562678878076703,
       1.0
     ],
     "label": 0,
-    "link": "file_186.txt"
+    "link": "The Voting Farm_ A Distributed Class for Software .pdf"
   },
   {
     "id": 187,
     "feature": [
-      0.0,
-      0.0,
-      -0.6604443788528442,
-      0.01826431043446064,
+      4.0,
+      0.005189093246812251,
+      -0.03004584275186062,
+      0.9998936653137207,
       0.027346342758529138,
       1.0
     ],
-    "label": 0,
-    "link": "file_187.txt"
+    "label": 4,
+    "link": "The_'COVID'_Crash_of_the_2020_U.S._Stock_Market.pdf"
   },
   {
     "id": 188,
     "feature": [
+      1.0,
+      0.004999250168707824,
+      -0.0016437754966318607,
       0.0,
-      0.0,
-      -0.8546833395957947,
-      0.41032618284225464,
       0.04365079365079365,
       1.0
     ],
     "label": 0,
-    "link": "file_188.txt"
+    "link": "The_Governance_of_Physical_Artificial_Intelligence.pdf"
   },
   {
     "id": 189,
     "feature": [
-      0.0,
-      0.0,
-      -0.7335306406021118,
-      0.9998213052749634,
+      1.0,
+      0.0021355190974568913,
+      -0.005954570136964321,
+      0.9998255968093872,
       0.048998257839721254,
       1.0
     ],
-    "label": 4,
-    "link": "file_189.txt"
+    "label": 0,
+    "link": "The_Nanotechnology_R(evolution).pdf"
   },
   {
     "id": 190,
     "feature": [
-      0.0,
-      0.0,
-      -0.7360814213752747,
+      14.0,
+      0.0714481025517807,
+      -0.003095808206126094,
       0.0,
       0.015489749430523917,
       1.0
     ],
-    "label": 0,
-    "link": "file_190.txt"
+    "label": 2,
+    "link": "The_new_classes_of_the_genetic_algorithms_are_defi.pdf"
   },
   {
     "id": 191,
     "feature": [
+      1.0,
+      0.0010334621503615877,
+      -0.04138927161693573,
       0.0,
-      0.0,
-      -0.7415086030960083,
-      0.9999006986618042,
       0.05138771058053569,
       1.0
     ],
-    "label": 4,
-    "link": "file_191.txt"
+    "label": 0,
+    "link": "The_Relationship_between_Digital_RMB_and_Digital_E.pdf"
   },
   {
     "id": 192,
     "feature": [
+      1.0,
+      0.002441232809654335,
+      -0.004996610339730978,
       0.0,
-      0.0,
-      -0.7978152632713318,
-      0.9871447086334229,
       0.03453947368421053,
       1.0
     ],
-    "label": 4,
-    "link": "file_192.txt"
+    "label": 0,
+    "link": "The_Scientific_Competitiveness_of_Nations.pdf"
   },
   {
     "id": 193,
     "feature": [
-      0.0,
-      0.0,
-      -0.750758171081543,
-      0.16532593965530396,
+      1.0,
+      0.0011176728990235345,
+      -0.05947040393948555,
+      0.9999147057533264,
       0.035577332765232214,
       1.0
     ],
     "label": 0,
-    "link": "file_193.txt"
+    "link": "The_Semiotic_Machine.pdf"
   },
   {
     "id": 194,
     "feature": [
-      0.0,
-      0.0,
-      -0.5966691374778748,
-      0.8538040518760681,
+      1.0,
+      0.0011736749669132545,
+      -0.04964563995599747,
+      0.9999269247055054,
       0.04186810179695339,
       1.0
     ],
-    "label": 4,
-    "link": "file_194.txt"
+    "label": 0,
+    "link": "The_Use_of_Agricultural_Robots_in_Orchard_Manageme.pdf"
   },
   {
     "id": 195,
     "feature": [
-      0.0,
-      0.0,
-      -0.6682655215263367,
-      0.016730494797229767,
+      1.0,
+      0.0013728404294517564,
+      -0.01875997893512249,
+      0.9999076724052429,
       0.018211157215306594,
       1.0
     ],
     "label": 0,
-    "link": "file_195.txt"
+    "link": "Tile or Stare_ Cadence and Sky Monitoring Observin.pdf"
   },
   {
     "id": 196,
     "feature": [
+      1.0,
+      0.0012215358365200392,
+      -0.04578307271003723,
       0.0,
-      0.0,
-      -0.7161486148834229,
-      0.47000300884246826,
       0.02053206755712551,
       1.0
     ],
     "label": 0,
-    "link": "file_196.txt"
+    "link": "Tourist route optimization in the context of Covid.pdf"
   },
   {
     "id": 197,
     "feature": [
+      1.0,
+      0.0013231785326834346,
+      -0.049966100603342056,
       0.0,
-      0.0,
-      -0.8120806217193604,
-      0.999900758266449,
       0.028095353928484553,
       1.0
     ],
-    "label": 4,
-    "link": "file_197.txt"
+    "label": 0,
+    "link": "Towards Scientific Literacy in Inclusive Science E.pdf"
   },
   {
     "id": 198,
     "feature": [
-      0.0,
-      0.0,
-      -0.6712367534637451,
-      0.014193899929523468,
+      1.0,
+      0.00148505480111116,
+      -0.0116263497620821,
+      0.9998976588249207,
       0.03410832907511497,
       1.0
     ],
     "label": 0,
-    "link": "file_198.txt"
+    "link": "Towards The Creation Of The Future Fish Farm.pdf"
   },
   {
     "id": 199,
     "feature": [
+      1.0,
+      0.0036093792473677264,
+      -0.001889058738015592,
       0.0,
-      0.0,
-      -0.759965717792511,
-      0.31986764073371887,
       0.03488712987393726,
       1.0
     ],
     "label": 0,
-    "link": "file_199.txt"
+    "link": "Towards_Using_Multiple_Iterated,_Reproduced,_and_R.pdf"
   },
   {
     "id": 200,
     "feature": [
+      2.0,
+      0.0021991277570069722,
+      -0.0260330643504858,
       0.0,
-      0.0,
-      -0.7157812714576721,
-      0.9988691806793213,
       0.026543878656554713,
       1.0
     ],
-    "label": 4,
-    "link": "file_200.txt"
+    "label": 0,
+    "link": "Tracking the Twitter attention around the research.pdf"
   },
   {
     "id": 201,
     "feature": [
-      0.0,
-      0.0,
-      -0.7345324754714966,
-      0.0,
+      1.0,
+      0.0014380467976688426,
+      -0.06450780481100082,
+      0.999883234500885,
       0.036016331291921846,
       1.0
     ],
     "label": 0,
-    "link": "file_201.txt"
+    "link": "Turing Completeness and Sid Meier's Civilization.pdf"
   },
   {
     "id": 202,
     "feature": [
+      4.0,
+      0.008131324286120912,
+      -0.005691723898053169,
       0.0,
-      0.0,
-      -0.7925951480865479,
-      0.14300000667572021,
       0.03068112088361628,
       1.0
     ],
-    "label": 0,
-    "link": "file_202.txt"
+    "label": 4,
+    "link": "Turning_Multidimensional_Big_Data_Analytics_into_P.pdf"
   },
   {
     "id": 203,
     "feature": [
+      1.0,
+      0.0015246701647105964,
+      -0.015040808357298374,
       0.0,
-      0.0,
-      -0.6912614107131958,
-      0.08980664610862732,
       0.024555903866248695,
       1.0
     ],
     "label": 0,
-    "link": "file_203.txt"
+    "link": "Understanding_and_predicting_synthetic_lethal_gene.pdf"
   },
   {
     "id": 204,
     "feature": [
-      0.0,
-      0.0,
-      -0.7123875617980957,
-      0.7631341218948364,
+      1.0,
+      0.0020564511732191395,
+      -0.006371308583766222,
+      0.999846875667572,
       0.018543299560313517,
       1.0
     ],
-    "label": 4,
-    "link": "file_204.txt"
+    "label": 0,
+    "link": "Uniform weak convergence of poverty measures with .pdf"
   },
   {
     "id": 205,
     "feature": [
+      1.0,
+      0.0014850138637828934,
+      -0.019316276535391808,
       0.0,
-      0.0,
-      -0.7664194703102112,
-      0.9998073577880859,
       0.028846153846153848,
       1.0
     ],
-    "label": 4,
-    "link": "file_205.txt"
+    "label": 0,
+    "link": "Using a market basket analysis in tourism studies.pdf"
   },
   {
     "id": 206,
     "feature": [
+      1.0,
+      0.0016472899847433044,
+      -0.013044409453868866,
       0.0,
-      0.0,
-      -0.799452543258667,
-      0.4938792586326599,
       0.027261462205700124,
       1.0
     ],
     "label": 0,
-    "link": "file_206.txt"
+    "link": "Using I4.0 digital twins in agriculture.pdf"
   },
   {
     "id": 207,
     "feature": [
-      0.0,
-      0.0,
-      -0.673338770866394,
+      1.0,
+      0.0012934143193560723,
+      -0.024103472009301186,
       0.0,
       0.0239961413240082,
       1.0
     ],
     "label": 0,
-    "link": "file_207.txt"
+    "link": "Variable selection for sparse Dirichlet-multinomia.pdf"
   },
   {
     "id": 208,
     "feature": [
       2.0,
-      0.0032577304069139846,
-      -0.6662409901618958,
+      0.0018439728323251324,
+      -0.06142159923911095,
       0.0,
       0.0228383852493365,
       1.0
     ],
     "label": 0,
-    "link": "file_208.txt"
+    "link": "Very high resolution canopy height maps from RGB i.pdf"
   },
   {
     "id": 209,
     "feature": [
+      3.0,
+      0.01224347023248854,
+      -0.0021075222175568342,
       0.0,
-      0.0,
-      -0.7875725626945496,
-      0.9955449104309082,
       0.025886101154918358,
       1.0
     ],
     "label": 4,
-    "link": "file_209.txt"
+    "link": "Visualizing_Environmental_Justice_Issues_in_Urban_.pdf"
   },
   {
     "id": 210,
     "feature": [
-      0.0,
-      0.0,
-      -0.759162425994873,
+      1.0,
+      0.0029709844460874377,
+      -0.002784382551908493,
       0.0,
       0.0327909887359199,
       1.0
     ],
     "label": 0,
-    "link": "file_210.txt"
+    "link": "Visual_Attention_Model_for_Cross-sectional_Stock_R.pdf"
   },
   {
     "id": 211,
     "feature": [
+      13.0,
+      0.02329087193987379,
+      -0.009444816038012505,
       0.0,
-      0.0,
-      -0.7052581906318665,
-      0.10284291952848434,
       0.027033919918388168,
       1.0
     ],
-    "label": 0,
-    "link": "file_211.txt"
+    "label": 2,
+    "link": "Voice_Jailbreak_Attacks_Against_GPT-4o.pdf"
   },
   {
     "id": 212,
     "feature": [
+      4.0,
+      0.0049433448851439665,
+      -0.024171175435185432,
       0.0,
-      0.0,
-      -0.6699253916740417,
-      0.07274766266345978,
       0.023659493520389964,
       1.0
     ],
-    "label": 0,
-    "link": "file_212.txt"
+    "label": 4,
+    "link": "Voting behind the Veil of Ignorance.pdf"
   },
   {
     "id": 213,
     "feature": [
-      0.0,
-      0.0,
-      -0.7484636902809143,
+      1.0,
+      0.0002661973520769328,
+      -0.00901520624756813,
       0.0,
       0.03044563752457966,
       1.0
     ],
     "label": 0,
-    "link": "file_213.txt"
+    "link": "Web_data_mining_for_public_health_purposes.pdf"
   },
   {
     "id": 214,
     "feature": [
+      1.0,
+      0.0013836566870997081,
+      -0.029443979263305664,
       0.0,
-      0.0,
-      -0.7646254897117615,
-      0.992939829826355,
       0.032139227642276426,
       1.0
     ],
-    "label": 4,
-    "link": "file_214.txt"
+    "label": 0,
+    "link": "What is prompt literacy_ An exploratory study of l.pdf"
   },
   {
     "id": 215,
     "feature": [
+      1.0,
+      0.001147720666386691,
+      -0.07352738827466965,
       0.0,
-      0.0,
-      -0.7754174470901489,
-      0.9999147057533264,
       0.024024960998439936,
       1.0
     ],
-    "label": 4,
-    "link": "file_215.txt"
+    "label": 0,
+    "link": "Why is soccer so popular_ Understanding underdog a.pdf"
   },
   {
     "id": 216,
     "feature": [
+      1.0,
+      0.004179274296083619,
+      -0.001595773152075708,
       0.0,
-      0.0,
-      -0.7167951464653015,
-      0.9997076392173767,
       0.04168151050944068,
       1.0
     ],
-    "label": 4,
-    "link": "file_216.txt"
+    "label": 0,
+    "link": "Working_Paper_on_Organizational_Dynamics_within_Co.pdf"
   }
 ]

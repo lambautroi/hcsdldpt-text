@@ -12,7 +12,7 @@ def ClusterUseKmeans(features_array, n_clusters=5):
 
 def LuuDanhSachDacTrungVaNhom(features_array, labels, filename, file_paths=None):
     print(f"💾 Đang lưu kết quả vào {filename}...")
-
+    
     if file_paths is None:
         file_paths = [f"file_{i}.txt" for i in range(len(labels))]
 
@@ -21,12 +21,13 @@ def LuuDanhSachDacTrungVaNhom(features_array, labels, filename, file_paths=None)
             "id": idx,
             "feature": features_array[idx].tolist(),
             "label": labels[idx],
-            "link": file_paths[idx]
+            "link": file_paths[idx]  # ⬅️ dùng tên file thật
         }
         for idx in range(len(labels))
     ]
-    
+
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    
+
     print("✅ Lưu thành công.")
+
