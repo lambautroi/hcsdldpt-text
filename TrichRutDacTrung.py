@@ -1,122 +1,140 @@
-import fitz  # PyMuPDF
+import os
+import re
+import nltk
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.decomposition import LatentDirichletAllocation
-from gensim.models import Word2Vec
-import spacy
+from gensim.models import Word2Vec, LdaModel
+from gensim.corpora import Dictionary
+from collections import Counter
 
-class TrichRutDacTrung:
-    def __init__(self):
-        self.nlp = spacy.load("en_core_web_sm")
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
-    def read_pdf(self, path):
-        doc = fitz.open(path)
-        text = ""
-        for page in doc:
-            page_text = page.get_text()
-            text += page_text
-        if len(text.strip()) < 100:
-            print("⚠️ Văn bản trích xuất quá ngắn!")
-        return text
+POS_TAGS = [
+    "CC", "CD", "DT", "EX", "FW", "IN", "JJ", "JJR", "JJS", "LS", "MD",
+    "NN", "NNS", "NNP", "NNPS", "PDT", "POS", "PRP", "PRP$", "RB", "RBR",
+    "RBS", "RP", "SYM", "TO", "UH", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ",
+    "WDT", "WP", "WP$", "WRB"
+]
 
-    def extract_bow_features(self, texts):
-        vectorizer = CountVectorizer()
-        bow_matrix = vectorizer.fit_transform(texts)
-        return bow_matrix.toarray(), vectorizer.get_feature_names_out()
+def extract_text_from_file(file_path):
+    text = ""
+    if file_path.endswith('.pdf'):
+        import PyPDF2
+        with open(file_path, 'rb') as f:
+            reader = PyPDF2.PdfReader(f)
+            text = " ".join(page.extract_text() for page in reader.pages if page.extract_text())
+    elif file_path.endswith('.txt'):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            text = f.read()
+    return text
 
-    def extract_tfidf_features(self, texts):
-        vectorizer = TfidfVectorizer()
-        tfidf_matrix = vectorizer.fit_transform(texts)
-        return tfidf_matrix.toarray(), vectorizer.get_feature_names_out()
+# Hàm tiền xử lý , làm sạch văn bản
+def clean_text(text):
+    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'[^\w\s]', '', text)
+    return text.lower()
 
-    def extract_word2vec_features(self, texts, vector_size=100):
-        tokenized_texts = [text.split() for text in texts]
-        if not any(tokenized_texts):
-            return np.zeros((len(texts), vector_size))
-        model = Word2Vec(tokenized_texts, vector_size=vector_size, window=5, min_count=1, workers=4)
-        doc_vectors = []
-        for tokens in tokenized_texts:
-            vectors = [model.wv[word] for word in tokens if word in model.wv]
-            if vectors:
-                doc_vectors.append(np.mean(vectors, axis=0))
-            else:
-                doc_vectors.append(np.zeros(vector_size))
-        return np.array(doc_vectors)
+def extract_bow(texts):
+    vectorizer = CountVectorizer()
+    return vectorizer.fit_transform(texts).toarray()
 
-    def extract_lda_features(self, texts, num_topics=5):
-        vectorizer = CountVectorizer(max_features=1000)
-        tf_matrix = vectorizer.fit_transform(texts)
-        lda = LatentDirichletAllocation(n_components=num_topics, random_state=42)
-        lda_matrix = lda.fit_transform(tf_matrix)
-        return lda_matrix
+def extract_tfidf(texts):
+    vectorizer = TfidfVectorizer()
+    return vectorizer.fit_transform(texts).toarray()
 
-    def extract_pos_features(self, texts):
-        pos_features = []
-        for text in texts:
-            doc = self.nlp(text)
-            noun_count = verb_count = adj_count = 0
-            for token in doc:
-                if token.pos_ == "NOUN":
-                    noun_count += 1
-                elif token.pos_ == "VERB":
-                    verb_count += 1
-                elif token.pos_ == "ADJ":
-                    adj_count += 1
-            pos_features.append([noun_count, verb_count, adj_count])
-        return np.array(pos_features)
+def extract_word2vec(texts):
+    tokenized = [nltk.word_tokenize(text) for text in texts]
+    model = Word2Vec(sentences=tokenized, vector_size=100, window=5, min_count=1, workers=4)
+    vectors = []
+    for sentence in tokenized:
+        vectors.append(np.mean([model.wv[word] for word in sentence if word in model.wv] or [np.zeros(100)], axis=0))
+    return np.array(vectors)
 
-    def extract_passive_voice_features(self, texts):
-        passive_counts = []
-        for text in texts:
-            doc = self.nlp(text)
-            passive_count = 0
-            for sent in doc.sents:
-                for token in sent:
-                    if token.dep_ == "nsubjpass":
-                        passive_count += 1
-                        break
-            passive_counts.append(passive_count)
-        return np.array(passive_counts).reshape(-1, 1)
+def extract_lda(texts, num_topics=5):
+    tokenized = [nltk.word_tokenize(text) for text in texts]
+    dictionary = Dictionary(tokenized)
+    corpus = [dictionary.doc2bow(text) for text in tokenized]
+    lda = LdaModel(corpus, num_topics=num_topics, id2word=dictionary, passes=10)
+    lda_vectors = []
+    for doc in corpus:
+        topic_dist = [0] * num_topics
+        for topic_id, prob in lda.get_document_topics(doc):
+            topic_dist[topic_id] = prob
+        lda_vectors.append(topic_dist)
+    return np.array(lda_vectors)
 
-    def extract_all_features(self, texts):
-        bow_features, _ = self.extract_bow_features(texts)
-        tfidf_features, _ = self.extract_tfidf_features(texts)
-        word2vec_features = self.extract_word2vec_features(texts)
-        lda_features = self.extract_lda_features(texts)
-        pos_features = self.extract_pos_features(texts)
-        passive_features = self.extract_passive_voice_features(texts)
+def extract_pos_tags(texts):
+    pos_features = []
+    for text in texts:
+        tokens = nltk.word_tokenize(text)
+        tags = nltk.pos_tag(tokens)
+        tag_counts = Counter(tag for _, tag in tags)
+        total = sum(tag_counts.values())
+        tag_freqs = [tag_counts.get(tag, 0) / total if total > 0 else 0 for tag in POS_TAGS]
+        pos_features.append(tag_freqs)
+    return np.array(pos_features)
 
-        # Xác định chiều tối đa cần thiết cho mỗi loại đặc trưng
-        target_dim = 10  # Hoặc bất kỳ số nào đại ca muốn cố định
+def extract_passive_voice(texts):
+    features = []
+    for text in texts:
+        sentences = nltk.sent_tokenize(text)
+        count = sum(1 for s in sentences if re.search(r'\b(be|is|are|was|were|been|being)\b\s+\w+ed\b', s))
+        features.append([count / len(sentences) if sentences else 0])
+    return np.array(features)
 
-        def resize_features(features, target_dim):
-            if features.shape[1] >= target_dim:
-                return features[:, :target_dim]
-            else:
-                pad_width = target_dim - features.shape[1]
-                return np.pad(features, ((0, 0), (0, pad_width)), 'constant')
+def extract_all_features(texts):
+    print(f"🔍 Đang trích rút đặc trưng cho {len(texts)} văn bản...")
+    bow = extract_bow(texts)
+    tfidf = extract_tfidf(texts)
+    w2v = extract_word2vec(texts)
+    lda = extract_lda(texts)
+    pos = extract_pos_tags(texts)
+    passive = extract_passive_voice(texts)
 
-        bow_features = resize_features(bow_features, target_dim)
-        tfidf_features = resize_features(tfidf_features, target_dim)
-        word2vec_features = resize_features(word2vec_features, target_dim)
-        lda_features = resize_features(lda_features, target_dim)
+    print("📏 Đang chuẩn hóa chiều đặc trưng...")
+    min_len = min(map(len, [bow[0], tfidf[0], w2v[0], lda[0], pos[0], passive[0]]))
+    all_features = np.concatenate([
+        bow[:, :min_len],
+        tfidf[:, :min_len],
+        w2v[:, :min_len],
+        lda[:, :min_len],
+        pos[:, :min_len],
+        passive[:, :min_len]
+    ], axis=1)
 
+    print(f"✅ Hoàn tất. Kích thước đặc trưng: {all_features.shape}")
+    return all_features
 
-        combined_features = np.hstack((
-            bow_features,
-            tfidf_features,
-            word2vec_features,
-            lda_features,
-            pos_features,
-            passive_features
-        ))
-        return combined_features
+def extract_features_from_file(filepath):
+    """
+    Trích rút đặc trưng từ 1 file duy nhất (.pdf hoặc .txt)
+    Trả về vector đặc trưng 1D
+    """
+    raw_text = extract_text_from_file(filepath)
+    if not raw_text.strip():
+        print("⚠️ File rỗng hoặc không đọc được.")
+        return None
 
-feature_extractor = TrichRutDacTrung()
+    cleaned_text = clean_text(raw_text)
 
-def features(path):
-    raw_text = feature_extractor.read_pdf(path)
-    cleaned_text = raw_text.replace("\n", " ").strip()
-    texts = [cleaned_text]
-    all_features = feature_extractor.extract_all_features(texts)
-    return all_features[0]
+    print("🔍 Đang trích đặc trưng từ file đơn lẻ...")
+    bow = extract_bow([cleaned_text])
+    tfidf = extract_tfidf([cleaned_text])
+    w2v = extract_word2vec([cleaned_text])
+    lda = extract_lda([cleaned_text])
+    pos = extract_pos_tags([cleaned_text])
+    passive = extract_passive_voice([cleaned_text])
+
+    min_len = min(len(bow[0]), len(tfidf[0]), len(w2v[0]), len(lda[0]), len(pos[0]), len(passive[0]))
+    final_vector = np.concatenate([
+        bow[:, :min_len],
+        tfidf[:, :min_len],
+        w2v[:, :min_len],
+        lda[:, :min_len],
+        pos[:, :min_len],
+        passive[:, :min_len]
+    ], axis=1)
+
+    print(f"✅ Vector đặc trưng có shape: {final_vector.shape}")
+    return final_vector[0]  # Trả về vector 1 chiều (1D)

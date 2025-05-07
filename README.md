@@ -37,4 +37,4 @@ Chạy: python TrichRutDacTrungTuFile.py
 
 2. Giao Diện Người Dùng
    Chạy: python Home.py
-   Giao diện hiện lên ➤ chọn file .pdf ➤ hệ thống trả về Top 3 văn bản gần giống nhất, kèm nội dung hoặc chức năng mở file tương ứng.
+   Giao diện hiện lên ➤ chọn file .pdf ➤ hệ thống trả về Top 3 văn bản gần giống nhất

@@ -1,28 +1,34 @@
 import os
-from TrichRutDacTrung import TrichRutDacTrung
-from TienXuLy import preprocess_text
+import TrichRutDacTrung as td
 import LuuTruDacTrung as luu
 
-folder = "data"
-extractor = TrichRutDacTrung()
+DATA_FOLDER = "data"
+OUTPUT_FILE = "metadata/data.json"
+N_CLUSTERS = 5  # Tuỳ chỉnh nếu muốn thay đổi số cụm
 
-list_features = []
-file_names = []
+# Bước 1: Đọc toàn bộ văn bản trong thư mục data/
+print("📁 Đang load các file từ thư mục data/...")
+files = [f for f in os.listdir(DATA_FOLDER) if f.endswith((".txt", ".pdf"))]
+file_paths = [os.path.join(DATA_FOLDER, f) for f in files]
 
-for filename in os.listdir(folder):
-    if filename.endswith(".pdf"):
-        path = os.path.join(folder, filename)
-        print(f"Đang xử lý {path}...")
-        raw = extractor.read_pdf(path)
-        if not raw.strip():
-            print(f"⚠ Bỏ qua {filename} vì không đọc được nội dung.")
-            continue
-        clean = preprocess_text(raw)
-        vector = extractor.extract_all_features([clean])
-        list_features.append(vector[0])
-        file_names.append(filename)
+texts = []
+for file_path in file_paths:
+    try:
+        text = td.extract_text_from_file(file_path)
+        clean = td.clean_text(text)
+        texts.append(clean)
+    except Exception as e:
+        print(f"❌ Lỗi khi đọc file {file_path}: {e}")
 
-# Clustering
-clusters = luu.ClusterUseKmeans(list_features)
-luu.LuuJSON(clusters)
-print("✅ Hoàn tất. Kết quả lưu vào data.json")
+# Bước 2: Trích rút đặc trưng từ văn bản
+features_array = td.extract_all_features(texts)
+
+# Bước 3: Phân cụm
+labels = luu.ClusterUseKmeans(features_array, n_clusters=N_CLUSTERS)
+
+# Bước 4: Lưu đặc trưng + nhãn cụm + link
+luu.LuuDanhSachDacTrungVaNhom(
+    features_array,
+    labels,
+    OUTPUT_FILE
+)

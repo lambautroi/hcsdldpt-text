@@ -1,23 +1,19 @@
 from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
+import numpy as np
 
-def SimilarityCalculation(clusters, features):
-    labelCount = []
+def SimilarityCalculation(clusters, feature):
+    # Đảm bảo đặc trưng đầu vào là numpy 2D
+    feature = np.array(feature).reshape(1, -1)
 
-    for feature in features:
-        max_sim = -1
-        best_cluster = None
-        for cluster in clusters:
-            sim = cosine_similarity([feature], [cluster.center])[0][0]
-            if sim > max_sim:
-                max_sim = sim
-                best_cluster = cluster
+    similarities = []
+    for cluster in clusters:
+        vector = np.array(cluster["feature"]).reshape(1, -1)
+        score = cosine_similarity(feature, vector)[0][0]
+        similarities.append((cluster["link"], score))
 
-        for f in best_cluster.features:
-            sim = cosine_similarity([feature], [f.feature])[0][0]
-            if sim > 0.2:  # ngưỡng lọc
-                labelCount.append((f.link, sim))
+    # Sắp xếp giảm dần theo độ tương đồng
+    similarities.sort(key=lambda x: x[1], reverse=True)
 
-    df = pd.DataFrame(labelCount, columns=['f_link', 'score'])
-    top_3_links = df.groupby('f_link')['score'].mean().nlargest(3).index.tolist()
-    return top_3_links
+    # Trả về top 3 file giống nhất + độ tương đồng
+    top_links = [f"{link} (score: {round(score, 3)})" for link, score in similarities[:3]]
+    return top_links

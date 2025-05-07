@@ -1,24 +1,32 @@
-import numpy as np
-from sklearn.cluster import KMeans
 import json
+from sklearn.cluster import KMeans
+import numpy as np
 
-class VanBan:
-    def __init__(self, path, feature):
-        self.path = path
-        self.feature = feature
-        self.cluster = None
+def ClusterUseKmeans(features_array, n_clusters=5):
+    print("🔄 Đang tiến hành phân cụm KMeans...")
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init='auto')
+    kmeans.fit(features_array)
+    labels = kmeans.labels_
+    print("✅ Phân cụm xong.")
+    return labels.tolist()
 
-def ClusterUseKmeans(features, k=3):
-    if not features:
-        return []
-    features = np.array(features)
-    kmeans = KMeans(n_clusters=k, random_state=0, n_init='auto')
-    labels = kmeans.fit_predict(features)
-    clusters = []
-    for i, f in enumerate(features):
-        clusters.append({"center": int(labels[i]), "features": f.tolist()})
-    return clusters
+def LuuDanhSachDacTrungVaNhom(features_array, labels, filename, file_paths=None):
+    print(f"💾 Đang lưu kết quả vào {filename}...")
 
-def LuuJSON(data, file_path='metadata/data.json'):
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    if file_paths is None:
+        file_paths = [f"file_{i}.txt" for i in range(len(labels))]
+
+    data = [
+        {
+            "id": idx,
+            "feature": features_array[idx].tolist(),
+            "label": labels[idx],
+            "link": file_paths[idx]
+        }
+        for idx in range(len(labels))
+    ]
+    
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    print("✅ Lưu thành công.")
